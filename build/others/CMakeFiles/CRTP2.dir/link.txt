@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/CRTP2.dir/CRTP2.cpp.o -o CRTP2 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.o -o diamond_inherit 

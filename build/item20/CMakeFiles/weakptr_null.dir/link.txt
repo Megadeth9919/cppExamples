@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/weakptr_null.dir/weakptr_null.cpp.o -o weakptr_null 
