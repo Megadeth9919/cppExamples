@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/item21/initializer_list.cpp" "item21/CMakeFiles/initializer_list.dir/initializer_list.cpp.o" "gcc" "item21/CMakeFiles/initializer_list.dir/initializer_list.cpp.o.d"
+  "/home/qiuyuang/cppExamples/item21/initializer_list.cpp" "item21/CMakeFiles/initializer_list.dir/initializer_list.cpp.o" "gcc" "item21/CMakeFiles/initializer_list.dir/initializer_list.cpp.o.d"
   )
 
 # Targets to which this target links.

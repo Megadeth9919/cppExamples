@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/virtual/diamond_inherit.cpp" "virtual/CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.o" "gcc" "virtual/CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.o.d"
+  "/home/qiuyuang/cppExamples/virtual/diamond_inherit.cpp" "virtual/CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.o" "gcc" "virtual/CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.o.d"
   )
 
 # Targets to which this target links.

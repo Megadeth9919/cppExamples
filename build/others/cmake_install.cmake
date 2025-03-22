@@ -1,4 +1,4 @@
-# Install script for directory: /home/qya/tmp/others
+# Install script for directory: /home/qiuyuang/cppExamples/others
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

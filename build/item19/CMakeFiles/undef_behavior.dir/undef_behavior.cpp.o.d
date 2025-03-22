@@ -1,6 +1,7 @@
 item19/CMakeFiles/undef_behavior.dir/undef_behavior.cpp.o: \
- /home/qya/tmp/item19/undef_behavior.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
+ /home/qiuyuang/cppExamples/item19/undef_behavior.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

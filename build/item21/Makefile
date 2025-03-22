@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qya/tmp
+CMAKE_SOURCE_DIR = /home/qiuyuang/cppExamples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qya/tmp/build
+CMAKE_BINARY_DIR = /home/qiuyuang/cppExamples/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/qya/tmp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/qya/tmp/build/CMakeFiles /home/qya/tmp/build/item21//CMakeFiles/progress.marks
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item21/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qya/tmp/build/CMakeFiles 0
+	cd /home/qiuyuang/cppExamples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyuang/cppExamples/build/CMakeFiles /home/qiuyuang/cppExamples/build/item21//CMakeFiles/progress.marks
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item21/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyuang/cppExamples/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item21/clean
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item21/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item21/preinstall
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item21/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item21/preinstall
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item21/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/qya/tmp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/qiuyuang/cppExamples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 item21/CMakeFiles/initializer_list.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item21/CMakeFiles/initializer_list.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item21/CMakeFiles/initializer_list.dir/rule
 .PHONY : item21/CMakeFiles/initializer_list.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ initializer_list: item21/CMakeFiles/initializer_list.dir/rule
 
 # fast build rule for target.
 initializer_list/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f item21/CMakeFiles/initializer_list.dir/build.make item21/CMakeFiles/initializer_list.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f item21/CMakeFiles/initializer_list.dir/build.make item21/CMakeFiles/initializer_list.dir/build
 .PHONY : initializer_list/fast
 
 initializer_list.o: initializer_list.cpp.o
@@ -135,7 +135,7 @@ initializer_list.o: initializer_list.cpp.o
 
 # target to build an object file
 initializer_list.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f item21/CMakeFiles/initializer_list.dir/build.make item21/CMakeFiles/initializer_list.dir/initializer_list.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f item21/CMakeFiles/initializer_list.dir/build.make item21/CMakeFiles/initializer_list.dir/initializer_list.cpp.o
 .PHONY : initializer_list.cpp.o
 
 initializer_list.i: initializer_list.cpp.i
@@ -143,7 +143,7 @@ initializer_list.i: initializer_list.cpp.i
 
 # target to preprocess a source file
 initializer_list.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f item21/CMakeFiles/initializer_list.dir/build.make item21/CMakeFiles/initializer_list.dir/initializer_list.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f item21/CMakeFiles/initializer_list.dir/build.make item21/CMakeFiles/initializer_list.dir/initializer_list.cpp.i
 .PHONY : initializer_list.cpp.i
 
 initializer_list.s: initializer_list.cpp.s
@@ -151,7 +151,7 @@ initializer_list.s: initializer_list.cpp.s
 
 # target to generate assembly for a file
 initializer_list.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f item21/CMakeFiles/initializer_list.dir/build.make item21/CMakeFiles/initializer_list.dir/initializer_list.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f item21/CMakeFiles/initializer_list.dir/build.make item21/CMakeFiles/initializer_list.dir/initializer_list.cpp.s
 .PHONY : initializer_list.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/qya/tmp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/qiuyuang/cppExamples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

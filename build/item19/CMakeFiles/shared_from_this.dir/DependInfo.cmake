@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/item19/shared_from_this.cpp" "item19/CMakeFiles/shared_from_this.dir/shared_from_this.cpp.o" "gcc" "item19/CMakeFiles/shared_from_this.dir/shared_from_this.cpp.o.d"
+  "/home/qiuyuang/cppExamples/item19/shared_from_this.cpp" "item19/CMakeFiles/shared_from_this.dir/shared_from_this.cpp.o" "gcc" "item19/CMakeFiles/shared_from_this.dir/shared_from_this.cpp.o.d"
   )
 
 # Targets to which this target links.

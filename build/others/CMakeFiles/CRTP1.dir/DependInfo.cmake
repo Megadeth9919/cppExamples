@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/others/CRTP1.cpp" "others/CMakeFiles/CRTP1.dir/CRTP1.cpp.o" "gcc" "others/CMakeFiles/CRTP1.dir/CRTP1.cpp.o.d"
+  "/home/qiuyuang/cppExamples/others/CRTP1.cpp" "others/CMakeFiles/CRTP1.dir/CRTP1.cpp.o" "gcc" "others/CMakeFiles/CRTP1.dir/CRTP1.cpp.o.d"
   )
 
 # Targets to which this target links.

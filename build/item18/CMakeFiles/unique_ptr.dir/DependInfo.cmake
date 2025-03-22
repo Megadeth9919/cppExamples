@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/item18/unique_ptr.cpp" "item18/CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o" "gcc" "item18/CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o.d"
+  "/home/qiuyuang/cppExamples/item18/unique_ptr.cpp" "item18/CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o" "gcc" "item18/CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o.d"
   )
 
 # Targets to which this target links.

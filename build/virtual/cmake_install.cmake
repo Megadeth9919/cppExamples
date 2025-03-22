@@ -1,4 +1,4 @@
-# Install script for directory: /home/qya/tmp/virtual
+# Install script for directory: /home/qiuyuang/cppExamples/virtual
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

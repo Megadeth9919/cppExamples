@@ -1,6 +1,7 @@
 item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.o: \
- /home/qya/tmp/item20/cache_with_weakptr.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
+ /home/qiuyuang/cppExamples/item20/cache_with_weakptr.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

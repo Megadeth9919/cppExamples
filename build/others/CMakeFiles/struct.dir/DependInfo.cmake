@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/others/struct.cpp" "others/CMakeFiles/struct.dir/struct.cpp.o" "gcc" "others/CMakeFiles/struct.dir/struct.cpp.o.d"
+  "/home/qiuyuang/cppExamples/others/struct.cpp" "others/CMakeFiles/struct.dir/struct.cpp.o" "gcc" "others/CMakeFiles/struct.dir/struct.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -9,8 +9,8 @@ add_subdirectory(item18)
 add_subdirectory(item19)
 add_subdirectory(item20)
 add_subdirectory(item21)
-add_subdirectory(tmp)
 add_subdirectory(others)
 add_subdirectory(virtual)
+add_subdirectory(RTTI)
 
 

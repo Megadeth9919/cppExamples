@@ -1,6 +1,6 @@
 others/CMakeFiles/reference.dir/reference.cpp.o: \
- /home/qya/tmp/others/reference.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/11/cstdio \
+ /home/qiuyuang/cppExamples/others/reference.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

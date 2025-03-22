@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qya/tmp
+CMAKE_SOURCE_DIR = /home/qiuyuang/cppExamples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qya/tmp/build
+CMAKE_BINARY_DIR = /home/qiuyuang/cppExamples/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/qya/tmp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/qya/tmp/build/CMakeFiles /home/qya/tmp/build/virtual//CMakeFiles/progress.marks
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qya/tmp/build/CMakeFiles 0
+	cd /home/qiuyuang/cppExamples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyuang/cppExamples/build/CMakeFiles /home/qiuyuang/cppExamples/build/virtual//CMakeFiles/progress.marks
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyuang/cppExamples/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/clean
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/preinstall
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/preinstall
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/qya/tmp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/qiuyuang/cppExamples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 virtual/CMakeFiles/diamond_inherit.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/CMakeFiles/diamond_inherit.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/CMakeFiles/diamond_inherit.dir/rule
 .PHONY : virtual/CMakeFiles/diamond_inherit.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ diamond_inherit: virtual/CMakeFiles/diamond_inherit.dir/rule
 
 # fast build rule for target.
 diamond_inherit/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/diamond_inherit.dir/build.make virtual/CMakeFiles/diamond_inherit.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/diamond_inherit.dir/build.make virtual/CMakeFiles/diamond_inherit.dir/build
 .PHONY : diamond_inherit/fast
 
 # Convenience name for target.
 virtual/CMakeFiles/multi_inherit.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/CMakeFiles/multi_inherit.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/CMakeFiles/multi_inherit.dir/rule
 .PHONY : virtual/CMakeFiles/multi_inherit.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ multi_inherit: virtual/CMakeFiles/multi_inherit.dir/rule
 
 # fast build rule for target.
 multi_inherit/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/multi_inherit.dir/build.make virtual/CMakeFiles/multi_inherit.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/multi_inherit.dir/build.make virtual/CMakeFiles/multi_inherit.dir/build
 .PHONY : multi_inherit/fast
 
 # Convenience name for target.
 virtual/CMakeFiles/no_virtual.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/CMakeFiles/no_virtual.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/CMakeFiles/no_virtual.dir/rule
 .PHONY : virtual/CMakeFiles/no_virtual.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ no_virtual: virtual/CMakeFiles/no_virtual.dir/rule
 
 # fast build rule for target.
 no_virtual/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/no_virtual.dir/build.make virtual/CMakeFiles/no_virtual.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/no_virtual.dir/build.make virtual/CMakeFiles/no_virtual.dir/build
 .PHONY : no_virtual/fast
 
 # Convenience name for target.
 virtual/CMakeFiles/override.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/CMakeFiles/override.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/CMakeFiles/override.dir/rule
 .PHONY : virtual/CMakeFiles/override.dir/rule
 
 # Convenience name for target.
@@ -169,12 +169,12 @@ override: virtual/CMakeFiles/override.dir/rule
 
 # fast build rule for target.
 override/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/override.dir/build.make virtual/CMakeFiles/override.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/override.dir/build.make virtual/CMakeFiles/override.dir/build
 .PHONY : override/fast
 
 # Convenience name for target.
 virtual/CMakeFiles/without_override.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/CMakeFiles/without_override.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual/CMakeFiles/without_override.dir/rule
 .PHONY : virtual/CMakeFiles/without_override.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ without_override: virtual/CMakeFiles/without_override.dir/rule
 
 # fast build rule for target.
 without_override/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/without_override.dir/build.make virtual/CMakeFiles/without_override.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/without_override.dir/build.make virtual/CMakeFiles/without_override.dir/build
 .PHONY : without_override/fast
 
 diamond_inherit.o: diamond_inherit.cpp.o
@@ -191,7 +191,7 @@ diamond_inherit.o: diamond_inherit.cpp.o
 
 # target to build an object file
 diamond_inherit.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/diamond_inherit.dir/build.make virtual/CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/diamond_inherit.dir/build.make virtual/CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.o
 .PHONY : diamond_inherit.cpp.o
 
 diamond_inherit.i: diamond_inherit.cpp.i
@@ -199,7 +199,7 @@ diamond_inherit.i: diamond_inherit.cpp.i
 
 # target to preprocess a source file
 diamond_inherit.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/diamond_inherit.dir/build.make virtual/CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/diamond_inherit.dir/build.make virtual/CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.i
 .PHONY : diamond_inherit.cpp.i
 
 diamond_inherit.s: diamond_inherit.cpp.s
@@ -207,7 +207,7 @@ diamond_inherit.s: diamond_inherit.cpp.s
 
 # target to generate assembly for a file
 diamond_inherit.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/diamond_inherit.dir/build.make virtual/CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/diamond_inherit.dir/build.make virtual/CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.s
 .PHONY : diamond_inherit.cpp.s
 
 multi_inherit.o: multi_inherit.cpp.o
@@ -215,7 +215,7 @@ multi_inherit.o: multi_inherit.cpp.o
 
 # target to build an object file
 multi_inherit.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/multi_inherit.dir/build.make virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/multi_inherit.dir/build.make virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.o
 .PHONY : multi_inherit.cpp.o
 
 multi_inherit.i: multi_inherit.cpp.i
@@ -223,7 +223,7 @@ multi_inherit.i: multi_inherit.cpp.i
 
 # target to preprocess a source file
 multi_inherit.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/multi_inherit.dir/build.make virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/multi_inherit.dir/build.make virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.i
 .PHONY : multi_inherit.cpp.i
 
 multi_inherit.s: multi_inherit.cpp.s
@@ -231,7 +231,7 @@ multi_inherit.s: multi_inherit.cpp.s
 
 # target to generate assembly for a file
 multi_inherit.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/multi_inherit.dir/build.make virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/multi_inherit.dir/build.make virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.s
 .PHONY : multi_inherit.cpp.s
 
 no_virtual.o: no_virtual.cpp.o
@@ -239,7 +239,7 @@ no_virtual.o: no_virtual.cpp.o
 
 # target to build an object file
 no_virtual.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/no_virtual.dir/build.make virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/no_virtual.dir/build.make virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.o
 .PHONY : no_virtual.cpp.o
 
 no_virtual.i: no_virtual.cpp.i
@@ -247,7 +247,7 @@ no_virtual.i: no_virtual.cpp.i
 
 # target to preprocess a source file
 no_virtual.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/no_virtual.dir/build.make virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/no_virtual.dir/build.make virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.i
 .PHONY : no_virtual.cpp.i
 
 no_virtual.s: no_virtual.cpp.s
@@ -255,7 +255,7 @@ no_virtual.s: no_virtual.cpp.s
 
 # target to generate assembly for a file
 no_virtual.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/no_virtual.dir/build.make virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/no_virtual.dir/build.make virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.s
 .PHONY : no_virtual.cpp.s
 
 override.o: override.cpp.o
@@ -263,7 +263,7 @@ override.o: override.cpp.o
 
 # target to build an object file
 override.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/override.dir/build.make virtual/CMakeFiles/override.dir/override.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/override.dir/build.make virtual/CMakeFiles/override.dir/override.cpp.o
 .PHONY : override.cpp.o
 
 override.i: override.cpp.i
@@ -271,7 +271,7 @@ override.i: override.cpp.i
 
 # target to preprocess a source file
 override.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/override.dir/build.make virtual/CMakeFiles/override.dir/override.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/override.dir/build.make virtual/CMakeFiles/override.dir/override.cpp.i
 .PHONY : override.cpp.i
 
 override.s: override.cpp.s
@@ -279,7 +279,7 @@ override.s: override.cpp.s
 
 # target to generate assembly for a file
 override.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/override.dir/build.make virtual/CMakeFiles/override.dir/override.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/override.dir/build.make virtual/CMakeFiles/override.dir/override.cpp.s
 .PHONY : override.cpp.s
 
 without_override.o: without_override.cpp.o
@@ -287,7 +287,7 @@ without_override.o: without_override.cpp.o
 
 # target to build an object file
 without_override.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/without_override.dir/build.make virtual/CMakeFiles/without_override.dir/without_override.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/without_override.dir/build.make virtual/CMakeFiles/without_override.dir/without_override.cpp.o
 .PHONY : without_override.cpp.o
 
 without_override.i: without_override.cpp.i
@@ -295,7 +295,7 @@ without_override.i: without_override.cpp.i
 
 # target to preprocess a source file
 without_override.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/without_override.dir/build.make virtual/CMakeFiles/without_override.dir/without_override.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/without_override.dir/build.make virtual/CMakeFiles/without_override.dir/without_override.cpp.i
 .PHONY : without_override.cpp.i
 
 without_override.s: without_override.cpp.s
@@ -303,7 +303,7 @@ without_override.s: without_override.cpp.s
 
 # target to generate assembly for a file
 without_override.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/without_override.dir/build.make virtual/CMakeFiles/without_override.dir/without_override.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/without_override.dir/build.make virtual/CMakeFiles/without_override.dir/without_override.cpp.s
 .PHONY : without_override.cpp.s
 
 # Help Target
@@ -345,6 +345,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/qya/tmp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/qiuyuang/cppExamples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

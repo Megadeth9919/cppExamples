@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/others/move.cpp" "others/CMakeFiles/move.dir/move.cpp.o" "gcc" "others/CMakeFiles/move.dir/move.cpp.o.d"
+  "/home/qiuyuang/cppExamples/others/move.cpp" "others/CMakeFiles/move.dir/move.cpp.o" "gcc" "others/CMakeFiles/move.dir/move.cpp.o.d"
   )
 
 # Targets to which this target links.

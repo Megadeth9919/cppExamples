@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qya/tmp
+CMAKE_SOURCE_DIR = /home/qiuyuang/cppExamples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qya/tmp/build
+CMAKE_BINARY_DIR = /home/qiuyuang/cppExamples/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/qya/tmp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/qya/tmp/build/CMakeFiles /home/qya/tmp/build/item20//CMakeFiles/progress.marks
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qya/tmp/build/CMakeFiles 0
+	cd /home/qiuyuang/cppExamples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyuang/cppExamples/build/CMakeFiles /home/qiuyuang/cppExamples/build/item20//CMakeFiles/progress.marks
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyuang/cppExamples/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20/clean
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20/preinstall
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20/preinstall
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/qya/tmp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/qiuyuang/cppExamples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 item20/CMakeFiles/cache_with_weakptr.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20/CMakeFiles/cache_with_weakptr.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20/CMakeFiles/cache_with_weakptr.dir/rule
 .PHONY : item20/CMakeFiles/cache_with_weakptr.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ cache_with_weakptr: item20/CMakeFiles/cache_with_weakptr.dir/rule
 
 # fast build rule for target.
 cache_with_weakptr/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/cache_with_weakptr.dir/build.make item20/CMakeFiles/cache_with_weakptr.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/cache_with_weakptr.dir/build.make item20/CMakeFiles/cache_with_weakptr.dir/build
 .PHONY : cache_with_weakptr/fast
 
 # Convenience name for target.
 item20/CMakeFiles/weakptr_null.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20/CMakeFiles/weakptr_null.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20/CMakeFiles/weakptr_null.dir/rule
 .PHONY : item20/CMakeFiles/weakptr_null.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ weakptr_null: item20/CMakeFiles/weakptr_null.dir/rule
 
 # fast build rule for target.
 weakptr_null/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/weakptr_null.dir/build.make item20/CMakeFiles/weakptr_null.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/weakptr_null.dir/build.make item20/CMakeFiles/weakptr_null.dir/build
 .PHONY : weakptr_null/fast
 
 cache_with_weakptr.o: cache_with_weakptr.cpp.o
@@ -149,7 +149,7 @@ cache_with_weakptr.o: cache_with_weakptr.cpp.o
 
 # target to build an object file
 cache_with_weakptr.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/cache_with_weakptr.dir/build.make item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/cache_with_weakptr.dir/build.make item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.o
 .PHONY : cache_with_weakptr.cpp.o
 
 cache_with_weakptr.i: cache_with_weakptr.cpp.i
@@ -157,7 +157,7 @@ cache_with_weakptr.i: cache_with_weakptr.cpp.i
 
 # target to preprocess a source file
 cache_with_weakptr.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/cache_with_weakptr.dir/build.make item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/cache_with_weakptr.dir/build.make item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.i
 .PHONY : cache_with_weakptr.cpp.i
 
 cache_with_weakptr.s: cache_with_weakptr.cpp.s
@@ -165,7 +165,7 @@ cache_with_weakptr.s: cache_with_weakptr.cpp.s
 
 # target to generate assembly for a file
 cache_with_weakptr.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/cache_with_weakptr.dir/build.make item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/cache_with_weakptr.dir/build.make item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.s
 .PHONY : cache_with_weakptr.cpp.s
 
 weakptr_null.o: weakptr_null.cpp.o
@@ -173,7 +173,7 @@ weakptr_null.o: weakptr_null.cpp.o
 
 # target to build an object file
 weakptr_null.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/weakptr_null.dir/build.make item20/CMakeFiles/weakptr_null.dir/weakptr_null.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/weakptr_null.dir/build.make item20/CMakeFiles/weakptr_null.dir/weakptr_null.cpp.o
 .PHONY : weakptr_null.cpp.o
 
 weakptr_null.i: weakptr_null.cpp.i
@@ -181,7 +181,7 @@ weakptr_null.i: weakptr_null.cpp.i
 
 # target to preprocess a source file
 weakptr_null.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/weakptr_null.dir/build.make item20/CMakeFiles/weakptr_null.dir/weakptr_null.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/weakptr_null.dir/build.make item20/CMakeFiles/weakptr_null.dir/weakptr_null.cpp.i
 .PHONY : weakptr_null.cpp.i
 
 weakptr_null.s: weakptr_null.cpp.s
@@ -189,7 +189,7 @@ weakptr_null.s: weakptr_null.cpp.s
 
 # target to generate assembly for a file
 weakptr_null.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/weakptr_null.dir/build.make item20/CMakeFiles/weakptr_null.dir/weakptr_null.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f item20/CMakeFiles/weakptr_null.dir/build.make item20/CMakeFiles/weakptr_null.dir/weakptr_null.cpp.s
 .PHONY : weakptr_null.cpp.s
 
 # Help Target
@@ -219,6 +219,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/qya/tmp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/qiuyuang/cppExamples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

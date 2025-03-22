@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/item19/undef_behavior.cpp" "item19/CMakeFiles/undef_behavior.dir/undef_behavior.cpp.o" "gcc" "item19/CMakeFiles/undef_behavior.dir/undef_behavior.cpp.o.d"
+  "/home/qiuyuang/cppExamples/item19/undef_behavior.cpp" "item19/CMakeFiles/undef_behavior.dir/undef_behavior.cpp.o" "gcc" "item19/CMakeFiles/undef_behavior.dir/undef_behavior.cpp.o.d"
   )
 
 # Targets to which this target links.

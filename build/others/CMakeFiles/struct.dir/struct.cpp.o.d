@@ -1,5 +1,5 @@
 others/CMakeFiles/struct.dir/struct.cpp.o: \
- /home/qya/tmp/others/struct.cpp /usr/include/stdc-predef.h \
+ /home/qiuyuang/cppExamples/others/struct.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

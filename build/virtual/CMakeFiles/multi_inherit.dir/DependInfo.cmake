@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/virtual/multi_inherit.cpp" "virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.o" "gcc" "virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.o.d"
+  "/home/qiuyuang/cppExamples/virtual/multi_inherit.cpp" "virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.o" "gcc" "virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.o.d"
   )
 
 # Targets to which this target links.

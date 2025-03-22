@@ -1,4 +1,4 @@
-# Install script for directory: /home/qya/tmp
+# Install script for directory: /home/qiuyuang/cppExamples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,37 +44,37 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/qya/tmp/build/item18/cmake_install.cmake")
+  include("/home/qiuyuang/cppExamples/build/item18/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/qya/tmp/build/item19/cmake_install.cmake")
+  include("/home/qiuyuang/cppExamples/build/item19/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/qya/tmp/build/item20/cmake_install.cmake")
+  include("/home/qiuyuang/cppExamples/build/item20/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/qya/tmp/build/item21/cmake_install.cmake")
+  include("/home/qiuyuang/cppExamples/build/item21/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/qya/tmp/build/tmp/cmake_install.cmake")
+  include("/home/qiuyuang/cppExamples/build/others/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/qya/tmp/build/others/cmake_install.cmake")
+  include("/home/qiuyuang/cppExamples/build/virtual/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/qya/tmp/build/virtual/cmake_install.cmake")
+  include("/home/qiuyuang/cppExamples/build/RTTI/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -85,5 +85,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/qya/tmp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/qiuyuang/cppExamples/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

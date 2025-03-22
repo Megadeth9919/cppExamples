@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/virtual/no_virtual.cpp" "virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.o" "gcc" "virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.o.d"
+  "/home/qiuyuang/cppExamples/virtual/no_virtual.cpp" "virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.o" "gcc" "virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.o.d"
   )
 
 # Targets to which this target links.

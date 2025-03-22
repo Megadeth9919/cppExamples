@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/virtual/without_override.cpp" "virtual/CMakeFiles/without_override.dir/without_override.cpp.o" "gcc" "virtual/CMakeFiles/without_override.dir/without_override.cpp.o.d"
+  "/home/qiuyuang/cppExamples/virtual/without_override.cpp" "virtual/CMakeFiles/without_override.dir/without_override.cpp.o" "gcc" "virtual/CMakeFiles/without_override.dir/without_override.cpp.o.d"
   )
 
 # Targets to which this target links.

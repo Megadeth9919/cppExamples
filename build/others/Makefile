@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qya/tmp
+CMAKE_SOURCE_DIR = /home/qiuyuang/cppExamples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qya/tmp/build
+CMAKE_BINARY_DIR = /home/qiuyuang/cppExamples/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/qya/tmp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/qya/tmp/build/CMakeFiles /home/qya/tmp/build/others//CMakeFiles/progress.marks
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qya/tmp/build/CMakeFiles 0
+	cd /home/qiuyuang/cppExamples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyuang/cppExamples/build/CMakeFiles /home/qiuyuang/cppExamples/build/others//CMakeFiles/progress.marks
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyuang/cppExamples/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/clean
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/preinstall
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/preinstall
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/qya/tmp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/qiuyuang/cppExamples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 others/CMakeFiles/CRTP1.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/CRTP1.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/CRTP1.dir/rule
 .PHONY : others/CMakeFiles/CRTP1.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ CRTP1: others/CMakeFiles/CRTP1.dir/rule
 
 # fast build rule for target.
 CRTP1/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP1.dir/build.make others/CMakeFiles/CRTP1.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP1.dir/build.make others/CMakeFiles/CRTP1.dir/build
 .PHONY : CRTP1/fast
 
 # Convenience name for target.
 others/CMakeFiles/CRTP2.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/CRTP2.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/CRTP2.dir/rule
 .PHONY : others/CMakeFiles/CRTP2.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ CRTP2: others/CMakeFiles/CRTP2.dir/rule
 
 # fast build rule for target.
 CRTP2/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP2.dir/build.make others/CMakeFiles/CRTP2.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP2.dir/build.make others/CMakeFiles/CRTP2.dir/build
 .PHONY : CRTP2/fast
 
 # Convenience name for target.
 others/CMakeFiles/CRTP3.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/CRTP3.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/CRTP3.dir/rule
 .PHONY : others/CMakeFiles/CRTP3.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ CRTP3: others/CMakeFiles/CRTP3.dir/rule
 
 # fast build rule for target.
 CRTP3/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP3.dir/build.make others/CMakeFiles/CRTP3.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP3.dir/build.make others/CMakeFiles/CRTP3.dir/build
 .PHONY : CRTP3/fast
 
 # Convenience name for target.
 others/CMakeFiles/constructor.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/constructor.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/constructor.dir/rule
 .PHONY : others/CMakeFiles/constructor.dir/rule
 
 # Convenience name for target.
@@ -169,12 +169,12 @@ constructor: others/CMakeFiles/constructor.dir/rule
 
 # fast build rule for target.
 constructor/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/constructor.dir/build.make others/CMakeFiles/constructor.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/constructor.dir/build.make others/CMakeFiles/constructor.dir/build
 .PHONY : constructor/fast
 
 # Convenience name for target.
 others/CMakeFiles/move.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/move.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/move.dir/rule
 .PHONY : others/CMakeFiles/move.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ move: others/CMakeFiles/move.dir/rule
 
 # fast build rule for target.
 move/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/move.dir/build.make others/CMakeFiles/move.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/move.dir/build.make others/CMakeFiles/move.dir/build
 .PHONY : move/fast
 
 # Convenience name for target.
 others/CMakeFiles/reference.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/reference.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/reference.dir/rule
 .PHONY : others/CMakeFiles/reference.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ reference: others/CMakeFiles/reference.dir/rule
 
 # fast build rule for target.
 reference/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/reference.dir/build.make others/CMakeFiles/reference.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/reference.dir/build.make others/CMakeFiles/reference.dir/build
 .PHONY : reference/fast
 
 # Convenience name for target.
 others/CMakeFiles/struct.dir/rule:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/struct.dir/rule
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 others/CMakeFiles/struct.dir/rule
 .PHONY : others/CMakeFiles/struct.dir/rule
 
 # Convenience name for target.
@@ -211,7 +211,7 @@ struct: others/CMakeFiles/struct.dir/rule
 
 # fast build rule for target.
 struct/fast:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/struct.dir/build.make others/CMakeFiles/struct.dir/build
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/struct.dir/build.make others/CMakeFiles/struct.dir/build
 .PHONY : struct/fast
 
 CRTP1.o: CRTP1.cpp.o
@@ -219,7 +219,7 @@ CRTP1.o: CRTP1.cpp.o
 
 # target to build an object file
 CRTP1.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP1.dir/build.make others/CMakeFiles/CRTP1.dir/CRTP1.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP1.dir/build.make others/CMakeFiles/CRTP1.dir/CRTP1.cpp.o
 .PHONY : CRTP1.cpp.o
 
 CRTP1.i: CRTP1.cpp.i
@@ -227,7 +227,7 @@ CRTP1.i: CRTP1.cpp.i
 
 # target to preprocess a source file
 CRTP1.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP1.dir/build.make others/CMakeFiles/CRTP1.dir/CRTP1.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP1.dir/build.make others/CMakeFiles/CRTP1.dir/CRTP1.cpp.i
 .PHONY : CRTP1.cpp.i
 
 CRTP1.s: CRTP1.cpp.s
@@ -235,7 +235,7 @@ CRTP1.s: CRTP1.cpp.s
 
 # target to generate assembly for a file
 CRTP1.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP1.dir/build.make others/CMakeFiles/CRTP1.dir/CRTP1.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP1.dir/build.make others/CMakeFiles/CRTP1.dir/CRTP1.cpp.s
 .PHONY : CRTP1.cpp.s
 
 CRTP2.o: CRTP2.cpp.o
@@ -243,7 +243,7 @@ CRTP2.o: CRTP2.cpp.o
 
 # target to build an object file
 CRTP2.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP2.dir/build.make others/CMakeFiles/CRTP2.dir/CRTP2.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP2.dir/build.make others/CMakeFiles/CRTP2.dir/CRTP2.cpp.o
 .PHONY : CRTP2.cpp.o
 
 CRTP2.i: CRTP2.cpp.i
@@ -251,7 +251,7 @@ CRTP2.i: CRTP2.cpp.i
 
 # target to preprocess a source file
 CRTP2.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP2.dir/build.make others/CMakeFiles/CRTP2.dir/CRTP2.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP2.dir/build.make others/CMakeFiles/CRTP2.dir/CRTP2.cpp.i
 .PHONY : CRTP2.cpp.i
 
 CRTP2.s: CRTP2.cpp.s
@@ -259,7 +259,7 @@ CRTP2.s: CRTP2.cpp.s
 
 # target to generate assembly for a file
 CRTP2.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP2.dir/build.make others/CMakeFiles/CRTP2.dir/CRTP2.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP2.dir/build.make others/CMakeFiles/CRTP2.dir/CRTP2.cpp.s
 .PHONY : CRTP2.cpp.s
 
 CRTP3.o: CRTP3.cpp.o
@@ -267,7 +267,7 @@ CRTP3.o: CRTP3.cpp.o
 
 # target to build an object file
 CRTP3.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP3.dir/build.make others/CMakeFiles/CRTP3.dir/CRTP3.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP3.dir/build.make others/CMakeFiles/CRTP3.dir/CRTP3.cpp.o
 .PHONY : CRTP3.cpp.o
 
 CRTP3.i: CRTP3.cpp.i
@@ -275,7 +275,7 @@ CRTP3.i: CRTP3.cpp.i
 
 # target to preprocess a source file
 CRTP3.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP3.dir/build.make others/CMakeFiles/CRTP3.dir/CRTP3.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP3.dir/build.make others/CMakeFiles/CRTP3.dir/CRTP3.cpp.i
 .PHONY : CRTP3.cpp.i
 
 CRTP3.s: CRTP3.cpp.s
@@ -283,7 +283,7 @@ CRTP3.s: CRTP3.cpp.s
 
 # target to generate assembly for a file
 CRTP3.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP3.dir/build.make others/CMakeFiles/CRTP3.dir/CRTP3.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/CRTP3.dir/build.make others/CMakeFiles/CRTP3.dir/CRTP3.cpp.s
 .PHONY : CRTP3.cpp.s
 
 constructor.o: constructor.cpp.o
@@ -291,7 +291,7 @@ constructor.o: constructor.cpp.o
 
 # target to build an object file
 constructor.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/constructor.dir/build.make others/CMakeFiles/constructor.dir/constructor.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/constructor.dir/build.make others/CMakeFiles/constructor.dir/constructor.cpp.o
 .PHONY : constructor.cpp.o
 
 constructor.i: constructor.cpp.i
@@ -299,7 +299,7 @@ constructor.i: constructor.cpp.i
 
 # target to preprocess a source file
 constructor.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/constructor.dir/build.make others/CMakeFiles/constructor.dir/constructor.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/constructor.dir/build.make others/CMakeFiles/constructor.dir/constructor.cpp.i
 .PHONY : constructor.cpp.i
 
 constructor.s: constructor.cpp.s
@@ -307,7 +307,7 @@ constructor.s: constructor.cpp.s
 
 # target to generate assembly for a file
 constructor.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/constructor.dir/build.make others/CMakeFiles/constructor.dir/constructor.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/constructor.dir/build.make others/CMakeFiles/constructor.dir/constructor.cpp.s
 .PHONY : constructor.cpp.s
 
 move.o: move.cpp.o
@@ -315,7 +315,7 @@ move.o: move.cpp.o
 
 # target to build an object file
 move.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/move.dir/build.make others/CMakeFiles/move.dir/move.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/move.dir/build.make others/CMakeFiles/move.dir/move.cpp.o
 .PHONY : move.cpp.o
 
 move.i: move.cpp.i
@@ -323,7 +323,7 @@ move.i: move.cpp.i
 
 # target to preprocess a source file
 move.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/move.dir/build.make others/CMakeFiles/move.dir/move.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/move.dir/build.make others/CMakeFiles/move.dir/move.cpp.i
 .PHONY : move.cpp.i
 
 move.s: move.cpp.s
@@ -331,7 +331,7 @@ move.s: move.cpp.s
 
 # target to generate assembly for a file
 move.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/move.dir/build.make others/CMakeFiles/move.dir/move.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/move.dir/build.make others/CMakeFiles/move.dir/move.cpp.s
 .PHONY : move.cpp.s
 
 reference.o: reference.cpp.o
@@ -339,7 +339,7 @@ reference.o: reference.cpp.o
 
 # target to build an object file
 reference.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/reference.dir/build.make others/CMakeFiles/reference.dir/reference.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/reference.dir/build.make others/CMakeFiles/reference.dir/reference.cpp.o
 .PHONY : reference.cpp.o
 
 reference.i: reference.cpp.i
@@ -347,7 +347,7 @@ reference.i: reference.cpp.i
 
 # target to preprocess a source file
 reference.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/reference.dir/build.make others/CMakeFiles/reference.dir/reference.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/reference.dir/build.make others/CMakeFiles/reference.dir/reference.cpp.i
 .PHONY : reference.cpp.i
 
 reference.s: reference.cpp.s
@@ -355,7 +355,7 @@ reference.s: reference.cpp.s
 
 # target to generate assembly for a file
 reference.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/reference.dir/build.make others/CMakeFiles/reference.dir/reference.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/reference.dir/build.make others/CMakeFiles/reference.dir/reference.cpp.s
 .PHONY : reference.cpp.s
 
 struct.o: struct.cpp.o
@@ -363,7 +363,7 @@ struct.o: struct.cpp.o
 
 # target to build an object file
 struct.cpp.o:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/struct.dir/build.make others/CMakeFiles/struct.dir/struct.cpp.o
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/struct.dir/build.make others/CMakeFiles/struct.dir/struct.cpp.o
 .PHONY : struct.cpp.o
 
 struct.i: struct.cpp.i
@@ -371,7 +371,7 @@ struct.i: struct.cpp.i
 
 # target to preprocess a source file
 struct.cpp.i:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/struct.dir/build.make others/CMakeFiles/struct.dir/struct.cpp.i
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/struct.dir/build.make others/CMakeFiles/struct.dir/struct.cpp.i
 .PHONY : struct.cpp.i
 
 struct.s: struct.cpp.s
@@ -379,7 +379,7 @@ struct.s: struct.cpp.s
 
 # target to generate assembly for a file
 struct.cpp.s:
-	cd /home/qya/tmp/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/struct.dir/build.make others/CMakeFiles/struct.dir/struct.cpp.s
+	cd /home/qiuyuang/cppExamples/build && $(MAKE) $(MAKESILENT) -f others/CMakeFiles/struct.dir/build.make others/CMakeFiles/struct.dir/struct.cpp.s
 .PHONY : struct.cpp.s
 
 # Help Target
@@ -429,6 +429,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/qya/tmp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/qiuyuang/cppExamples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

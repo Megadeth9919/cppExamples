@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/others/constructor.cpp" "others/CMakeFiles/constructor.dir/constructor.cpp.o" "gcc" "others/CMakeFiles/constructor.dir/constructor.cpp.o.d"
+  "/home/qiuyuang/cppExamples/others/constructor.cpp" "others/CMakeFiles/constructor.dir/constructor.cpp.o" "gcc" "others/CMakeFiles/constructor.dir/constructor.cpp.o.d"
   )
 
 # Targets to which this target links.

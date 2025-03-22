@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/qya/tmp/item20/cache_with_weakptr.cpp" "item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.o" "gcc" "item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.o.d"
+  "/home/qiuyuang/cppExamples/item20/cache_with_weakptr.cpp" "item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.o" "gcc" "item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.o.d"
   )
 
 # Targets to which this target links.
