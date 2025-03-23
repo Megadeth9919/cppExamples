@@ -1,97 +1,134 @@
 [
 {
   "directory": "/home/qiuyuang/cppExamples/build/item18",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o -c /home/qiuyuang/cppExamples/item18/unique_ptr.cpp",
-  "file": "/home/qiuyuang/cppExamples/item18/unique_ptr.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o -c /home/qiuyuang/cppExamples/item18/unique_ptr.cpp",
+  "file": "/home/qiuyuang/cppExamples/item18/unique_ptr.cpp",
+  "output": "item18/CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/item19",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/shared_from_this.dir/shared_from_this.cpp.o -c /home/qiuyuang/cppExamples/item19/shared_from_this.cpp",
-  "file": "/home/qiuyuang/cppExamples/item19/shared_from_this.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/shared_from_this.dir/shared_from_this.cpp.o -c /home/qiuyuang/cppExamples/item19/shared_from_this.cpp",
+  "file": "/home/qiuyuang/cppExamples/item19/shared_from_this.cpp",
+  "output": "item19/CMakeFiles/shared_from_this.dir/shared_from_this.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/item19",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/undef_behavior.dir/undef_behavior.cpp.o -c /home/qiuyuang/cppExamples/item19/undef_behavior.cpp",
-  "file": "/home/qiuyuang/cppExamples/item19/undef_behavior.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/undef_behavior.dir/undef_behavior.cpp.o -c /home/qiuyuang/cppExamples/item19/undef_behavior.cpp",
+  "file": "/home/qiuyuang/cppExamples/item19/undef_behavior.cpp",
+  "output": "item19/CMakeFiles/undef_behavior.dir/undef_behavior.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/item20",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.o -c /home/qiuyuang/cppExamples/item20/cache_with_weakptr.cpp",
-  "file": "/home/qiuyuang/cppExamples/item20/cache_with_weakptr.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.o -c /home/qiuyuang/cppExamples/item20/cache_with_weakptr.cpp",
+  "file": "/home/qiuyuang/cppExamples/item20/cache_with_weakptr.cpp",
+  "output": "item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/item20",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/weakptr_null.dir/weakptr_null.cpp.o -c /home/qiuyuang/cppExamples/item20/weakptr_null.cpp",
-  "file": "/home/qiuyuang/cppExamples/item20/weakptr_null.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/weakptr_null.dir/weakptr_null.cpp.o -c /home/qiuyuang/cppExamples/item20/weakptr_null.cpp",
+  "file": "/home/qiuyuang/cppExamples/item20/weakptr_null.cpp",
+  "output": "item20/CMakeFiles/weakptr_null.dir/weakptr_null.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/item21",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/initializer_list.dir/initializer_list.cpp.o -c /home/qiuyuang/cppExamples/item21/initializer_list.cpp",
-  "file": "/home/qiuyuang/cppExamples/item21/initializer_list.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/initializer_list.dir/initializer_list.cpp.o -c /home/qiuyuang/cppExamples/item21/initializer_list.cpp",
+  "file": "/home/qiuyuang/cppExamples/item21/initializer_list.cpp",
+  "output": "item21/CMakeFiles/initializer_list.dir/initializer_list.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/others",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/CRTP1.dir/CRTP1.cpp.o -c /home/qiuyuang/cppExamples/others/CRTP1.cpp",
-  "file": "/home/qiuyuang/cppExamples/others/CRTP1.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/CRTP1.dir/CRTP1.cpp.o -c /home/qiuyuang/cppExamples/others/CRTP1.cpp",
+  "file": "/home/qiuyuang/cppExamples/others/CRTP1.cpp",
+  "output": "others/CMakeFiles/CRTP1.dir/CRTP1.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/others",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/CRTP2.dir/CRTP2.cpp.o -c /home/qiuyuang/cppExamples/others/CRTP2.cpp",
-  "file": "/home/qiuyuang/cppExamples/others/CRTP2.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/CRTP2.dir/CRTP2.cpp.o -c /home/qiuyuang/cppExamples/others/CRTP2.cpp",
+  "file": "/home/qiuyuang/cppExamples/others/CRTP2.cpp",
+  "output": "others/CMakeFiles/CRTP2.dir/CRTP2.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/others",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/CRTP3.dir/CRTP3.cpp.o -c /home/qiuyuang/cppExamples/others/CRTP3.cpp",
-  "file": "/home/qiuyuang/cppExamples/others/CRTP3.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/CRTP3.dir/CRTP3.cpp.o -c /home/qiuyuang/cppExamples/others/CRTP3.cpp",
+  "file": "/home/qiuyuang/cppExamples/others/CRTP3.cpp",
+  "output": "others/CMakeFiles/CRTP3.dir/CRTP3.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/others",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/constructor.dir/constructor.cpp.o -c /home/qiuyuang/cppExamples/others/constructor.cpp",
-  "file": "/home/qiuyuang/cppExamples/others/constructor.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/constructor.dir/constructor.cpp.o -c /home/qiuyuang/cppExamples/others/constructor.cpp",
+  "file": "/home/qiuyuang/cppExamples/others/constructor.cpp",
+  "output": "others/CMakeFiles/constructor.dir/constructor.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/others",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/move.dir/move.cpp.o -c /home/qiuyuang/cppExamples/others/move.cpp",
-  "file": "/home/qiuyuang/cppExamples/others/move.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/move.dir/move.cpp.o -c /home/qiuyuang/cppExamples/others/move.cpp",
+  "file": "/home/qiuyuang/cppExamples/others/move.cpp",
+  "output": "others/CMakeFiles/move.dir/move.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/others",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/reference.dir/reference.cpp.o -c /home/qiuyuang/cppExamples/others/reference.cpp",
-  "file": "/home/qiuyuang/cppExamples/others/reference.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/reference.dir/reference.cpp.o -c /home/qiuyuang/cppExamples/others/reference.cpp",
+  "file": "/home/qiuyuang/cppExamples/others/reference.cpp",
+  "output": "others/CMakeFiles/reference.dir/reference.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/others",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/struct.dir/struct.cpp.o -c /home/qiuyuang/cppExamples/others/struct.cpp",
-  "file": "/home/qiuyuang/cppExamples/others/struct.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/struct.dir/struct.cpp.o -c /home/qiuyuang/cppExamples/others/struct.cpp",
+  "file": "/home/qiuyuang/cppExamples/others/struct.cpp",
+  "output": "others/CMakeFiles/struct.dir/struct.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/virtual",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.o -c /home/qiuyuang/cppExamples/virtual/diamond_inherit.cpp",
-  "file": "/home/qiuyuang/cppExamples/virtual/diamond_inherit.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.o -c /home/qiuyuang/cppExamples/virtual/diamond_inherit.cpp",
+  "file": "/home/qiuyuang/cppExamples/virtual/diamond_inherit.cpp",
+  "output": "virtual/CMakeFiles/diamond_inherit.dir/diamond_inherit.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/virtual",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/multi_inherit.dir/multi_inherit.cpp.o -c /home/qiuyuang/cppExamples/virtual/multi_inherit.cpp",
-  "file": "/home/qiuyuang/cppExamples/virtual/multi_inherit.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/multi_inherit.dir/multi_inherit.cpp.o -c /home/qiuyuang/cppExamples/virtual/multi_inherit.cpp",
+  "file": "/home/qiuyuang/cppExamples/virtual/multi_inherit.cpp",
+  "output": "virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/virtual",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/no_virtual.dir/no_virtual.cpp.o -c /home/qiuyuang/cppExamples/virtual/no_virtual.cpp",
-  "file": "/home/qiuyuang/cppExamples/virtual/no_virtual.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/no_virtual.dir/no_virtual.cpp.o -c /home/qiuyuang/cppExamples/virtual/no_virtual.cpp",
+  "file": "/home/qiuyuang/cppExamples/virtual/no_virtual.cpp",
+  "output": "virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/virtual",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/override.dir/override.cpp.o -c /home/qiuyuang/cppExamples/virtual/override.cpp",
-  "file": "/home/qiuyuang/cppExamples/virtual/override.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/override.dir/override.cpp.o -c /home/qiuyuang/cppExamples/virtual/override.cpp",
+  "file": "/home/qiuyuang/cppExamples/virtual/override.cpp",
+  "output": "virtual/CMakeFiles/override.dir/override.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/virtual",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/without_override.dir/without_override.cpp.o -c /home/qiuyuang/cppExamples/virtual/without_override.cpp",
-  "file": "/home/qiuyuang/cppExamples/virtual/without_override.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/without_override.dir/without_override.cpp.o -c /home/qiuyuang/cppExamples/virtual/without_override.cpp",
+  "file": "/home/qiuyuang/cppExamples/virtual/without_override.cpp",
+  "output": "virtual/CMakeFiles/without_override.dir/without_override.cpp.o"
 },
 {
   "directory": "/home/qiuyuang/cppExamples/build/RTTI",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/stdRTTI.dir/stdRTTI.cpp.o -c /home/qiuyuang/cppExamples/RTTI/stdRTTI.cpp",
-  "file": "/home/qiuyuang/cppExamples/RTTI/stdRTTI.cpp"
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/LLVMRTTI.dir/LLVMRTTI.cpp.o -c /home/qiuyuang/cppExamples/RTTI/LLVMRTTI.cpp",
+  "file": "/home/qiuyuang/cppExamples/RTTI/LLVMRTTI.cpp",
+  "output": "RTTI/CMakeFiles/LLVMRTTI.dir/LLVMRTTI.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/build/RTTI",
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/stdRTTI.dir/stdRTTI.cpp.o -c /home/qiuyuang/cppExamples/RTTI/stdRTTI.cpp",
+  "file": "/home/qiuyuang/cppExamples/RTTI/stdRTTI.cpp",
+  "output": "RTTI/CMakeFiles/stdRTTI.dir/stdRTTI.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/build/RTTI",
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/std_dynamic_cast.dir/std_dynamic_cast.cpp.o -c /home/qiuyuang/cppExamples/RTTI/std_dynamic_cast.cpp",
+  "file": "/home/qiuyuang/cppExamples/RTTI/std_dynamic_cast.cpp",
+  "output": "RTTI/CMakeFiles/std_dynamic_cast.dir/std_dynamic_cast.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/build/RTTI",
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/test_ub.dir/test_ub.cpp.o -c /home/qiuyuang/cppExamples/RTTI/test_ub.cpp",
+  "file": "/home/qiuyuang/cppExamples/RTTI/test_ub.cpp",
+  "output": "RTTI/CMakeFiles/test_ub.dir/test_ub.cpp.o"
 }
 ]

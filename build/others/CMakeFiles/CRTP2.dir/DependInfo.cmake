@@ -11,8 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/qiuyuang/cppExamples/others/CRTP2.cpp" "others/CMakeFiles/CRTP2.dir/CRTP2.cpp.o" "gcc" "others/CMakeFiles/CRTP2.dir/CRTP2.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

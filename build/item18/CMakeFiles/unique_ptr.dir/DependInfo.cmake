@@ -11,8 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/qiuyuang/cppExamples/item18/unique_ptr.cpp" "item18/CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o" "gcc" "item18/CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

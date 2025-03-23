@@ -11,8 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/qiuyuang/cppExamples/virtual/multi_inherit.cpp" "virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.o" "gcc" "virtual/CMakeFiles/multi_inherit.dir/multi_inherit.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

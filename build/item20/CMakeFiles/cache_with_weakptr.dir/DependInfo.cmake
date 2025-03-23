@@ -11,8 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/qiuyuang/cppExamples/item20/cache_with_weakptr.cpp" "item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.o" "gcc" "item20/CMakeFiles/cache_with_weakptr.dir/cache_with_weakptr.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

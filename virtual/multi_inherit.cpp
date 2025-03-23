@@ -26,6 +26,8 @@ template<typename T>
 void walk(T* obj, size_t offset) {
   printf("\n==-------------------------------==\n");
   printf("[static]class:%s   size:%ld\n", typeid(T).name(), sizeof(T));
+
+  // 多继承的派生类有多个虚表
   auto *vtable = *(void**)((long*)obj + offset);
   
   printf("vtable addr: %p\n", vtable);
@@ -47,6 +49,7 @@ void walk(T* obj, size_t offset) {
 
   printf("offset_to_top: %ld\n", offset_to_top);
 
+  printf("vtable addr: %p\n", vtable);
   printf("\n==-------------------------------==\n");
 }
 

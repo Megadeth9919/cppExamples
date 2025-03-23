@@ -9,4 +9,8 @@ foreach(SOURCE_FILE ${SOURCES})
     
     # 添加一个可执行文件，名称为文件名去掉.cpp后缀
     add_executable(${EXECUTABLE_NAME} ${SOURCE_FILE})
+
+    if(${SOURCE_FILE} STREQUAL "LLVMRTTI.cpp")
+        target_compile_options(${EXECUTABLE_NAME} PRIVATE -fno-rtti)
+    endif()
 endforeach()

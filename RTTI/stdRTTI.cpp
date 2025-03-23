@@ -46,6 +46,6 @@ int main()
     }
     catch (const std::bad_typeid& e)
     {
-         std::cout << " caught " << e.what() << '\n';
+        std::cout << " caught " << e.what() << '\n';
     }
 }

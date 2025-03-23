@@ -11,8 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/qiuyuang/cppExamples/virtual/no_virtual.cpp" "virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.o" "gcc" "virtual/CMakeFiles/no_virtual.dir/no_virtual.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
