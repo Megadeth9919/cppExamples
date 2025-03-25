@@ -402,6 +402,32 @@ test_ub/fast:
 	$(MAKE) $(MAKESILENT) -f RTTI/CMakeFiles/test_ub.dir/build.make RTTI/CMakeFiles/test_ub.dir/build
 .PHONY : test_ub/fast
 
+#=============================================================================
+# Target rules for targets named TinyLLVMADT
+
+# Build rule for target.
+TinyLLVMADT: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TinyLLVMADT
+.PHONY : TinyLLVMADT
+
+# fast build rule for target.
+TinyLLVMADT/fast:
+	$(MAKE) $(MAKESILENT) -f TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/build.make TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/build
+.PHONY : TinyLLVMADT/fast
+
+#=============================================================================
+# Target rules for targets named test1
+
+# Build rule for target.
+test1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test1
+.PHONY : test1
+
+# fast build rule for target.
+test1/fast:
+	$(MAKE) $(MAKESILENT) -f TinyLLVMADT/CMakeFiles/test1.dir/build.make TinyLLVMADT/CMakeFiles/test1.dir/build
+.PHONY : test1/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -414,6 +440,7 @@ help:
 	@echo "... CRTP2"
 	@echo "... CRTP3"
 	@echo "... LLVMRTTI"
+	@echo "... TinyLLVMADT"
 	@echo "... cache_with_weakptr"
 	@echo "... constructor"
 	@echo "... diamond_inherit"
@@ -427,6 +454,7 @@ help:
 	@echo "... stdRTTI"
 	@echo "... std_dynamic_cast"
 	@echo "... struct"
+	@echo "... test1"
 	@echo "... test_ub"
 	@echo "... undef_behavior"
 	@echo "... unique_ptr"

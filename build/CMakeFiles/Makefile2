@@ -70,6 +70,7 @@ all: item21/all
 all: others/all
 all: virtual/all
 all: RTTI/all
+all: TinyLLVMADT/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -80,6 +81,7 @@ preinstall: item21/preinstall
 preinstall: others/preinstall
 preinstall: virtual/preinstall
 preinstall: RTTI/preinstall
+preinstall: TinyLLVMADT/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -90,6 +92,7 @@ clean: item21/clean
 clean: others/clean
 clean: virtual/clean
 clean: RTTI/clean
+clean: TinyLLVMADT/clean
 .PHONY : clean
 
 #=============================================================================
@@ -112,6 +115,23 @@ RTTI/clean: RTTI/CMakeFiles/stdRTTI.dir/clean
 RTTI/clean: RTTI/CMakeFiles/std_dynamic_cast.dir/clean
 RTTI/clean: RTTI/CMakeFiles/test_ub.dir/clean
 .PHONY : RTTI/clean
+
+#=============================================================================
+# Directory level rules for directory TinyLLVMADT
+
+# Recursive "all" directory target.
+TinyLLVMADT/all: TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/all
+TinyLLVMADT/all: TinyLLVMADT/CMakeFiles/test1.dir/all
+.PHONY : TinyLLVMADT/all
+
+# Recursive "preinstall" directory target.
+TinyLLVMADT/preinstall:
+.PHONY : TinyLLVMADT/preinstall
+
+# Recursive "clean" directory target.
+TinyLLVMADT/clean: TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/clean
+TinyLLVMADT/clean: TinyLLVMADT/CMakeFiles/test1.dir/clean
+.PHONY : TinyLLVMADT/clean
 
 #=============================================================================
 # Directory level rules for directory item18
@@ -234,7 +254,7 @@ virtual/clean: virtual/CMakeFiles/without_override.dir/clean
 item18/CMakeFiles/unique_ptr.dir/all:
 	$(MAKE) $(MAKESILENT) -f item18/CMakeFiles/unique_ptr.dir/build.make item18/CMakeFiles/unique_ptr.dir/depend
 	$(MAKE) $(MAKESILENT) -f item18/CMakeFiles/unique_ptr.dir/build.make item18/CMakeFiles/unique_ptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=39,40 "Built target unique_ptr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=43,44 "Built target unique_ptr"
 .PHONY : item18/CMakeFiles/unique_ptr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -260,7 +280,7 @@ item18/CMakeFiles/unique_ptr.dir/clean:
 item19/CMakeFiles/shared_from_this.dir/all:
 	$(MAKE) $(MAKESILENT) -f item19/CMakeFiles/shared_from_this.dir/build.make item19/CMakeFiles/shared_from_this.dir/depend
 	$(MAKE) $(MAKESILENT) -f item19/CMakeFiles/shared_from_this.dir/build.make item19/CMakeFiles/shared_from_this.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=27,28 "Built target shared_from_this"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=29,30 "Built target shared_from_this"
 .PHONY : item19/CMakeFiles/shared_from_this.dir/all
 
 # Build rule for subdir invocation for target.
@@ -286,7 +306,7 @@ item19/CMakeFiles/shared_from_this.dir/clean:
 item19/CMakeFiles/undef_behavior.dir/all:
 	$(MAKE) $(MAKESILENT) -f item19/CMakeFiles/undef_behavior.dir/build.make item19/CMakeFiles/undef_behavior.dir/depend
 	$(MAKE) $(MAKESILENT) -f item19/CMakeFiles/undef_behavior.dir/build.make item19/CMakeFiles/undef_behavior.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=37,38 "Built target undef_behavior"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=41,42 "Built target undef_behavior"
 .PHONY : item19/CMakeFiles/undef_behavior.dir/all
 
 # Build rule for subdir invocation for target.
@@ -312,7 +332,7 @@ item19/CMakeFiles/undef_behavior.dir/clean:
 item20/CMakeFiles/cache_with_weakptr.dir/all:
 	$(MAKE) $(MAKESILENT) -f item20/CMakeFiles/cache_with_weakptr.dir/build.make item20/CMakeFiles/cache_with_weakptr.dir/depend
 	$(MAKE) $(MAKESILENT) -f item20/CMakeFiles/cache_with_weakptr.dir/build.make item20/CMakeFiles/cache_with_weakptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=9,10 "Built target cache_with_weakptr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=11,12 "Built target cache_with_weakptr"
 .PHONY : item20/CMakeFiles/cache_with_weakptr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -338,7 +358,7 @@ item20/CMakeFiles/cache_with_weakptr.dir/clean:
 item20/CMakeFiles/weakptr_null.dir/all:
 	$(MAKE) $(MAKESILENT) -f item20/CMakeFiles/weakptr_null.dir/build.make item20/CMakeFiles/weakptr_null.dir/depend
 	$(MAKE) $(MAKESILENT) -f item20/CMakeFiles/weakptr_null.dir/build.make item20/CMakeFiles/weakptr_null.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=41,42 "Built target weakptr_null"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=45,46 "Built target weakptr_null"
 .PHONY : item20/CMakeFiles/weakptr_null.dir/all
 
 # Build rule for subdir invocation for target.
@@ -364,7 +384,7 @@ item20/CMakeFiles/weakptr_null.dir/clean:
 item21/CMakeFiles/initializer_list.dir/all:
 	$(MAKE) $(MAKESILENT) -f item21/CMakeFiles/initializer_list.dir/build.make item21/CMakeFiles/initializer_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f item21/CMakeFiles/initializer_list.dir/build.make item21/CMakeFiles/initializer_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=15,16 "Built target initializer_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=17,18 "Built target initializer_list"
 .PHONY : item21/CMakeFiles/initializer_list.dir/all
 
 # Build rule for subdir invocation for target.
@@ -468,7 +488,7 @@ others/CMakeFiles/CRTP3.dir/clean:
 others/CMakeFiles/constructor.dir/all:
 	$(MAKE) $(MAKESILENT) -f others/CMakeFiles/constructor.dir/build.make others/CMakeFiles/constructor.dir/depend
 	$(MAKE) $(MAKESILENT) -f others/CMakeFiles/constructor.dir/build.make others/CMakeFiles/constructor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=11,12 "Built target constructor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=13,14 "Built target constructor"
 .PHONY : others/CMakeFiles/constructor.dir/all
 
 # Build rule for subdir invocation for target.
@@ -494,7 +514,7 @@ others/CMakeFiles/constructor.dir/clean:
 others/CMakeFiles/move.dir/all:
 	$(MAKE) $(MAKESILENT) -f others/CMakeFiles/move.dir/build.make others/CMakeFiles/move.dir/depend
 	$(MAKE) $(MAKESILENT) -f others/CMakeFiles/move.dir/build.make others/CMakeFiles/move.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=17,18 "Built target move"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=19,20 "Built target move"
 .PHONY : others/CMakeFiles/move.dir/all
 
 # Build rule for subdir invocation for target.
@@ -520,7 +540,7 @@ others/CMakeFiles/move.dir/clean:
 others/CMakeFiles/reference.dir/all:
 	$(MAKE) $(MAKESILENT) -f others/CMakeFiles/reference.dir/build.make others/CMakeFiles/reference.dir/depend
 	$(MAKE) $(MAKESILENT) -f others/CMakeFiles/reference.dir/build.make others/CMakeFiles/reference.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=25,26 "Built target reference"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=27,28 "Built target reference"
 .PHONY : others/CMakeFiles/reference.dir/all
 
 # Build rule for subdir invocation for target.
@@ -546,7 +566,7 @@ others/CMakeFiles/reference.dir/clean:
 others/CMakeFiles/struct.dir/all:
 	$(MAKE) $(MAKESILENT) -f others/CMakeFiles/struct.dir/build.make others/CMakeFiles/struct.dir/depend
 	$(MAKE) $(MAKESILENT) -f others/CMakeFiles/struct.dir/build.make others/CMakeFiles/struct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=33,34 "Built target struct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=35,36 "Built target struct"
 .PHONY : others/CMakeFiles/struct.dir/all
 
 # Build rule for subdir invocation for target.
@@ -572,7 +592,7 @@ others/CMakeFiles/struct.dir/clean:
 virtual/CMakeFiles/diamond_inherit.dir/all:
 	$(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/diamond_inherit.dir/build.make virtual/CMakeFiles/diamond_inherit.dir/depend
 	$(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/diamond_inherit.dir/build.make virtual/CMakeFiles/diamond_inherit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=13,14 "Built target diamond_inherit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=15,16 "Built target diamond_inherit"
 .PHONY : virtual/CMakeFiles/diamond_inherit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -598,7 +618,7 @@ virtual/CMakeFiles/diamond_inherit.dir/clean:
 virtual/CMakeFiles/multi_inherit.dir/all:
 	$(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/multi_inherit.dir/build.make virtual/CMakeFiles/multi_inherit.dir/depend
 	$(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/multi_inherit.dir/build.make virtual/CMakeFiles/multi_inherit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=19,20 "Built target multi_inherit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=21,22 "Built target multi_inherit"
 .PHONY : virtual/CMakeFiles/multi_inherit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -624,7 +644,7 @@ virtual/CMakeFiles/multi_inherit.dir/clean:
 virtual/CMakeFiles/no_virtual.dir/all:
 	$(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/no_virtual.dir/build.make virtual/CMakeFiles/no_virtual.dir/depend
 	$(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/no_virtual.dir/build.make virtual/CMakeFiles/no_virtual.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=21,22 "Built target no_virtual"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=23,24 "Built target no_virtual"
 .PHONY : virtual/CMakeFiles/no_virtual.dir/all
 
 # Build rule for subdir invocation for target.
@@ -650,7 +670,7 @@ virtual/CMakeFiles/no_virtual.dir/clean:
 virtual/CMakeFiles/override.dir/all:
 	$(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/override.dir/build.make virtual/CMakeFiles/override.dir/depend
 	$(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/override.dir/build.make virtual/CMakeFiles/override.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=23,24 "Built target override"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=25,26 "Built target override"
 .PHONY : virtual/CMakeFiles/override.dir/all
 
 # Build rule for subdir invocation for target.
@@ -676,7 +696,7 @@ virtual/CMakeFiles/override.dir/clean:
 virtual/CMakeFiles/without_override.dir/all:
 	$(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/without_override.dir/build.make virtual/CMakeFiles/without_override.dir/depend
 	$(MAKE) $(MAKESILENT) -f virtual/CMakeFiles/without_override.dir/build.make virtual/CMakeFiles/without_override.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=43,44 "Built target without_override"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=47,48 "Built target without_override"
 .PHONY : virtual/CMakeFiles/without_override.dir/all
 
 # Build rule for subdir invocation for target.
@@ -728,7 +748,7 @@ RTTI/CMakeFiles/LLVMRTTI.dir/clean:
 RTTI/CMakeFiles/stdRTTI.dir/all:
 	$(MAKE) $(MAKESILENT) -f RTTI/CMakeFiles/stdRTTI.dir/build.make RTTI/CMakeFiles/stdRTTI.dir/depend
 	$(MAKE) $(MAKESILENT) -f RTTI/CMakeFiles/stdRTTI.dir/build.make RTTI/CMakeFiles/stdRTTI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=29,30 "Built target stdRTTI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=31,32 "Built target stdRTTI"
 .PHONY : RTTI/CMakeFiles/stdRTTI.dir/all
 
 # Build rule for subdir invocation for target.
@@ -754,7 +774,7 @@ RTTI/CMakeFiles/stdRTTI.dir/clean:
 RTTI/CMakeFiles/std_dynamic_cast.dir/all:
 	$(MAKE) $(MAKESILENT) -f RTTI/CMakeFiles/std_dynamic_cast.dir/build.make RTTI/CMakeFiles/std_dynamic_cast.dir/depend
 	$(MAKE) $(MAKESILENT) -f RTTI/CMakeFiles/std_dynamic_cast.dir/build.make RTTI/CMakeFiles/std_dynamic_cast.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=31,32 "Built target std_dynamic_cast"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=33,34 "Built target std_dynamic_cast"
 .PHONY : RTTI/CMakeFiles/std_dynamic_cast.dir/all
 
 # Build rule for subdir invocation for target.
@@ -780,7 +800,7 @@ RTTI/CMakeFiles/std_dynamic_cast.dir/clean:
 RTTI/CMakeFiles/test_ub.dir/all:
 	$(MAKE) $(MAKESILENT) -f RTTI/CMakeFiles/test_ub.dir/build.make RTTI/CMakeFiles/test_ub.dir/depend
 	$(MAKE) $(MAKESILENT) -f RTTI/CMakeFiles/test_ub.dir/build.make RTTI/CMakeFiles/test_ub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=35,36 "Built target test_ub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=39,40 "Built target test_ub"
 .PHONY : RTTI/CMakeFiles/test_ub.dir/all
 
 # Build rule for subdir invocation for target.
@@ -798,6 +818,58 @@ test_ub: RTTI/CMakeFiles/test_ub.dir/rule
 RTTI/CMakeFiles/test_ub.dir/clean:
 	$(MAKE) $(MAKESILENT) -f RTTI/CMakeFiles/test_ub.dir/build.make RTTI/CMakeFiles/test_ub.dir/clean
 .PHONY : RTTI/CMakeFiles/test_ub.dir/clean
+
+#=============================================================================
+# Target rules for target TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir
+
+# All Build rule for target.
+TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/all:
+	$(MAKE) $(MAKESILENT) -f TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/build.make TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/depend
+	$(MAKE) $(MAKESILENT) -f TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/build.make TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=9,10 "Built target TinyLLVMADT"
+.PHONY : TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/all
+
+# Build rule for subdir invocation for target.
+TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyuang/cppExamples/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyuang/cppExamples/build/CMakeFiles 0
+.PHONY : TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/rule
+
+# Convenience name for target.
+TinyLLVMADT: TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/rule
+.PHONY : TinyLLVMADT
+
+# clean rule for target.
+TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/clean:
+	$(MAKE) $(MAKESILENT) -f TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/build.make TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/clean
+.PHONY : TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/clean
+
+#=============================================================================
+# Target rules for target TinyLLVMADT/CMakeFiles/test1.dir
+
+# All Build rule for target.
+TinyLLVMADT/CMakeFiles/test1.dir/all: TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/all
+	$(MAKE) $(MAKESILENT) -f TinyLLVMADT/CMakeFiles/test1.dir/build.make TinyLLVMADT/CMakeFiles/test1.dir/depend
+	$(MAKE) $(MAKESILENT) -f TinyLLVMADT/CMakeFiles/test1.dir/build.make TinyLLVMADT/CMakeFiles/test1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qiuyuang/cppExamples/build/CMakeFiles --progress-num=37,38 "Built target test1"
+.PHONY : TinyLLVMADT/CMakeFiles/test1.dir/all
+
+# Build rule for subdir invocation for target.
+TinyLLVMADT/CMakeFiles/test1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyuang/cppExamples/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TinyLLVMADT/CMakeFiles/test1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyuang/cppExamples/build/CMakeFiles 0
+.PHONY : TinyLLVMADT/CMakeFiles/test1.dir/rule
+
+# Convenience name for target.
+test1: TinyLLVMADT/CMakeFiles/test1.dir/rule
+.PHONY : test1
+
+# clean rule for target.
+TinyLLVMADT/CMakeFiles/test1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f TinyLLVMADT/CMakeFiles/test1.dir/build.make TinyLLVMADT/CMakeFiles/test1.dir/clean
+.PHONY : TinyLLVMADT/CMakeFiles/test1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

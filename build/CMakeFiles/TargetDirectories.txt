@@ -36,3 +36,7 @@
 /home/qiuyuang/cppExamples/build/RTTI/CMakeFiles/test_ub.dir
 /home/qiuyuang/cppExamples/build/RTTI/CMakeFiles/edit_cache.dir
 /home/qiuyuang/cppExamples/build/RTTI/CMakeFiles/rebuild_cache.dir
+/home/qiuyuang/cppExamples/build/TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir
+/home/qiuyuang/cppExamples/build/TinyLLVMADT/CMakeFiles/test1.dir
+/home/qiuyuang/cppExamples/build/TinyLLVMADT/CMakeFiles/edit_cache.dir
+/home/qiuyuang/cppExamples/build/TinyLLVMADT/CMakeFiles/rebuild_cache.dir

@@ -130,5 +130,17 @@
   "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/test_ub.dir/test_ub.cpp.o -c /home/qiuyuang/cppExamples/RTTI/test_ub.cpp",
   "file": "/home/qiuyuang/cppExamples/RTTI/test_ub.cpp",
   "output": "RTTI/CMakeFiles/test_ub.dir/test_ub.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/build/TinyLLVMADT",
+  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinyLLVMADT/include -std=gnu++2a -o CMakeFiles/TinyLLVMADT.dir/lib/smallVector.cpp.o -c /home/qiuyuang/cppExamples/TinyLLVMADT/lib/smallVector.cpp",
+  "file": "/home/qiuyuang/cppExamples/TinyLLVMADT/lib/smallVector.cpp",
+  "output": "TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/lib/smallVector.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/build/TinyLLVMADT",
+  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinyLLVMADT/include -std=gnu++2a -o CMakeFiles/test1.dir/test/test1.cpp.o -c /home/qiuyuang/cppExamples/TinyLLVMADT/test/test1.cpp",
+  "file": "/home/qiuyuang/cppExamples/TinyLLVMADT/test/test1.cpp",
+  "output": "TinyLLVMADT/CMakeFiles/test1.dir/test/test1.cpp.o"
 }
 ]

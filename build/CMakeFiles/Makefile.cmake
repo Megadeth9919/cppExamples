@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/qiuyuang/cppExamples/CMakeLists.txt"
   "/home/qiuyuang/cppExamples/RTTI/CMakeLists.txt"
+  "/home/qiuyuang/cppExamples/TinyLLVMADT/CMakeLists.txt"
   "CMakeFiles/3.27.9/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.9/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.9/CMakeSystem.cmake"
@@ -54,6 +55,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "others/CMakeFiles/CMakeDirectoryInformation.cmake"
   "virtual/CMakeFiles/CMakeDirectoryInformation.cmake"
   "RTTI/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "TinyLLVMADT/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -80,4 +82,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "RTTI/CMakeFiles/stdRTTI.dir/DependInfo.cmake"
   "RTTI/CMakeFiles/std_dynamic_cast.dir/DependInfo.cmake"
   "RTTI/CMakeFiles/test_ub.dir/DependInfo.cmake"
+  "TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/DependInfo.cmake"
+  "TinyLLVMADT/CMakeFiles/test1.dir/DependInfo.cmake"
   )
