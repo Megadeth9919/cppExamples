@@ -12,6 +12,7 @@ add_subdirectory(item21)
 add_subdirectory(others)
 add_subdirectory(virtual)
 add_subdirectory(RTTI)
-add_subdirectory(TinyLLVMADT)
+# add_subdirectory(TinyLLVMADT)
+add_subdirectory(AI-LABS/LLVMADT/ArrayRef)
 
 

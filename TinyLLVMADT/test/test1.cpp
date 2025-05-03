@@ -1,7 +1,6 @@
 #include "smallVector.h"
 
 #include <cassert>
-#include "smallVector.h"
 
 int main() {
     SmallVector<int, 4> vec;

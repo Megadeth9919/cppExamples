@@ -79,7 +79,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/qiuyuang/cppExamples/build/TinyLLVMADT/cmake_install.cmake")
+  include("/home/qiuyuang/cppExamples/build/AI-LABS/LLVMADT/ArrayRef/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

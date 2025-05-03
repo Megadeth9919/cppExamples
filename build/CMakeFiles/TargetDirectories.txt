@@ -36,7 +36,13 @@
 /home/qiuyuang/cppExamples/build/RTTI/CMakeFiles/test_ub.dir
 /home/qiuyuang/cppExamples/build/RTTI/CMakeFiles/edit_cache.dir
 /home/qiuyuang/cppExamples/build/RTTI/CMakeFiles/rebuild_cache.dir
-/home/qiuyuang/cppExamples/build/TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir
-/home/qiuyuang/cppExamples/build/TinyLLVMADT/CMakeFiles/test1.dir
-/home/qiuyuang/cppExamples/build/TinyLLVMADT/CMakeFiles/edit_cache.dir
-/home/qiuyuang/cppExamples/build/TinyLLVMADT/CMakeFiles/rebuild_cache.dir
+/home/qiuyuang/cppExamples/build/AI-LABS/LLVMADT/ArrayRef/CMakeFiles/intrinsics_gen.dir
+/home/qiuyuang/cppExamples/build/AI-LABS/LLVMADT/ArrayRef/CMakeFiles/vt_gen.dir
+/home/qiuyuang/cppExamples/build/AI-LABS/LLVMADT/ArrayRef/CMakeFiles/omp_gen.dir
+/home/qiuyuang/cppExamples/build/AI-LABS/LLVMADT/ArrayRef/CMakeFiles/acc_gen.dir
+/home/qiuyuang/cppExamples/build/AI-LABS/LLVMADT/ArrayRef/CMakeFiles/ARMTargetParserTableGen.dir
+/home/qiuyuang/cppExamples/build/AI-LABS/LLVMADT/ArrayRef/CMakeFiles/AArch64TargetParserTableGen.dir
+/home/qiuyuang/cppExamples/build/AI-LABS/LLVMADT/ArrayRef/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/qiuyuang/cppExamples/build/AI-LABS/LLVMADT/ArrayRef/CMakeFiles/test.dir
+/home/qiuyuang/cppExamples/build/AI-LABS/LLVMADT/ArrayRef/CMakeFiles/edit_cache.dir
+/home/qiuyuang/cppExamples/build/AI-LABS/LLVMADT/ArrayRef/CMakeFiles/rebuild_cache.dir

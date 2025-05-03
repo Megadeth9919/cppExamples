@@ -403,30 +403,108 @@ test_ub/fast:
 .PHONY : test_ub/fast
 
 #=============================================================================
-# Target rules for targets named TinyLLVMADT
+# Target rules for targets named intrinsics_gen
 
 # Build rule for target.
-TinyLLVMADT: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TinyLLVMADT
-.PHONY : TinyLLVMADT
+intrinsics_gen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 intrinsics_gen
+.PHONY : intrinsics_gen
 
 # fast build rule for target.
-TinyLLVMADT/fast:
-	$(MAKE) $(MAKESILENT) -f TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/build.make TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/build
-.PHONY : TinyLLVMADT/fast
+intrinsics_gen/fast:
+	$(MAKE) $(MAKESILENT) -f AI-LABS/LLVMADT/ArrayRef/CMakeFiles/intrinsics_gen.dir/build.make AI-LABS/LLVMADT/ArrayRef/CMakeFiles/intrinsics_gen.dir/build
+.PHONY : intrinsics_gen/fast
 
 #=============================================================================
-# Target rules for targets named test1
+# Target rules for targets named vt_gen
 
 # Build rule for target.
-test1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test1
-.PHONY : test1
+vt_gen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vt_gen
+.PHONY : vt_gen
 
 # fast build rule for target.
-test1/fast:
-	$(MAKE) $(MAKESILENT) -f TinyLLVMADT/CMakeFiles/test1.dir/build.make TinyLLVMADT/CMakeFiles/test1.dir/build
-.PHONY : test1/fast
+vt_gen/fast:
+	$(MAKE) $(MAKESILENT) -f AI-LABS/LLVMADT/ArrayRef/CMakeFiles/vt_gen.dir/build.make AI-LABS/LLVMADT/ArrayRef/CMakeFiles/vt_gen.dir/build
+.PHONY : vt_gen/fast
+
+#=============================================================================
+# Target rules for targets named omp_gen
+
+# Build rule for target.
+omp_gen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 omp_gen
+.PHONY : omp_gen
+
+# fast build rule for target.
+omp_gen/fast:
+	$(MAKE) $(MAKESILENT) -f AI-LABS/LLVMADT/ArrayRef/CMakeFiles/omp_gen.dir/build.make AI-LABS/LLVMADT/ArrayRef/CMakeFiles/omp_gen.dir/build
+.PHONY : omp_gen/fast
+
+#=============================================================================
+# Target rules for targets named acc_gen
+
+# Build rule for target.
+acc_gen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 acc_gen
+.PHONY : acc_gen
+
+# fast build rule for target.
+acc_gen/fast:
+	$(MAKE) $(MAKESILENT) -f AI-LABS/LLVMADT/ArrayRef/CMakeFiles/acc_gen.dir/build.make AI-LABS/LLVMADT/ArrayRef/CMakeFiles/acc_gen.dir/build
+.PHONY : acc_gen/fast
+
+#=============================================================================
+# Target rules for targets named ARMTargetParserTableGen
+
+# Build rule for target.
+ARMTargetParserTableGen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARMTargetParserTableGen
+.PHONY : ARMTargetParserTableGen
+
+# fast build rule for target.
+ARMTargetParserTableGen/fast:
+	$(MAKE) $(MAKESILENT) -f AI-LABS/LLVMADT/ArrayRef/CMakeFiles/ARMTargetParserTableGen.dir/build.make AI-LABS/LLVMADT/ArrayRef/CMakeFiles/ARMTargetParserTableGen.dir/build
+.PHONY : ARMTargetParserTableGen/fast
+
+#=============================================================================
+# Target rules for targets named AArch64TargetParserTableGen
+
+# Build rule for target.
+AArch64TargetParserTableGen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AArch64TargetParserTableGen
+.PHONY : AArch64TargetParserTableGen
+
+# fast build rule for target.
+AArch64TargetParserTableGen/fast:
+	$(MAKE) $(MAKESILENT) -f AI-LABS/LLVMADT/ArrayRef/CMakeFiles/AArch64TargetParserTableGen.dir/build.make AI-LABS/LLVMADT/ArrayRef/CMakeFiles/AArch64TargetParserTableGen.dir/build
+.PHONY : AArch64TargetParserTableGen/fast
+
+#=============================================================================
+# Target rules for targets named RISCVTargetParserTableGen
+
+# Build rule for target.
+RISCVTargetParserTableGen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RISCVTargetParserTableGen
+.PHONY : RISCVTargetParserTableGen
+
+# fast build rule for target.
+RISCVTargetParserTableGen/fast:
+	$(MAKE) $(MAKESILENT) -f AI-LABS/LLVMADT/ArrayRef/CMakeFiles/RISCVTargetParserTableGen.dir/build.make AI-LABS/LLVMADT/ArrayRef/CMakeFiles/RISCVTargetParserTableGen.dir/build
+.PHONY : RISCVTargetParserTableGen/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f AI-LABS/LLVMADT/ArrayRef/CMakeFiles/test.dir/build.make AI-LABS/LLVMADT/ArrayRef/CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 # Help Target
 help:
@@ -436,11 +514,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... AArch64TargetParserTableGen"
+	@echo "... ARMTargetParserTableGen"
+	@echo "... RISCVTargetParserTableGen"
+	@echo "... acc_gen"
+	@echo "... intrinsics_gen"
+	@echo "... omp_gen"
+	@echo "... vt_gen"
 	@echo "... CRTP1"
 	@echo "... CRTP2"
 	@echo "... CRTP3"
 	@echo "... LLVMRTTI"
-	@echo "... TinyLLVMADT"
 	@echo "... cache_with_weakptr"
 	@echo "... constructor"
 	@echo "... diamond_inherit"
@@ -454,7 +538,7 @@ help:
 	@echo "... stdRTTI"
 	@echo "... std_dynamic_cast"
 	@echo "... struct"
-	@echo "... test1"
+	@echo "... test"
 	@echo "... test_ub"
 	@echo "... undef_behavior"
 	@echo "... unique_ptr"

@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/qiuyuang/cppExamples/AI-LABS/LLVMADT/ArrayRef/CMakeLists.txt"
   "/home/qiuyuang/cppExamples/CMakeLists.txt"
   "/home/qiuyuang/cppExamples/RTTI/CMakeLists.txt"
-  "/home/qiuyuang/cppExamples/TinyLLVMADT/CMakeLists.txt"
   "CMakeFiles/3.27.9/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.9/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.9/CMakeSystem.cmake"
@@ -19,6 +19,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/qiuyuang/cppExamples/item21/CMakeLists.txt"
   "/home/qiuyuang/cppExamples/others/CMakeLists.txt"
   "/home/qiuyuang/cppExamples/virtual/CMakeLists.txt"
+  "/home/qiuyuang/sora-mlir/externals/llvm-project/install/lib/cmake/llvm/LLVM-Config.cmake"
+  "/home/qiuyuang/sora-mlir/externals/llvm-project/install/lib/cmake/llvm/LLVMConfig.cmake"
+  "/home/qiuyuang/sora-mlir/externals/llvm-project/install/lib/cmake/llvm/LLVMConfigVersion.cmake"
+  "/home/qiuyuang/sora-mlir/externals/llvm-project/install/lib/cmake/llvm/LLVMExports-release.cmake"
+  "/home/qiuyuang/sora-mlir/externals/llvm-project/install/lib/cmake/llvm/LLVMExports.cmake"
   "/usr/share/cmake-3.27/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.27/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
@@ -31,12 +36,18 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.27/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.27/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.27/Modules/FindLibXml2.cmake"
+  "/usr/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/share/cmake-3.27/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.27/Modules/FindPkgConfig.cmake"
+  "/usr/share/cmake-3.27/Modules/FindZLIB.cmake"
   "/usr/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake"
   "/usr/share/cmake-3.27/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.27/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake"
   )
 
 # The corresponding makefile is:
@@ -55,7 +66,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "others/CMakeFiles/CMakeDirectoryInformation.cmake"
   "virtual/CMakeFiles/CMakeDirectoryInformation.cmake"
   "RTTI/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "TinyLLVMADT/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "AI-LABS/LLVMADT/ArrayRef/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -82,6 +93,12 @@ set(CMAKE_DEPEND_INFO_FILES
   "RTTI/CMakeFiles/stdRTTI.dir/DependInfo.cmake"
   "RTTI/CMakeFiles/std_dynamic_cast.dir/DependInfo.cmake"
   "RTTI/CMakeFiles/test_ub.dir/DependInfo.cmake"
-  "TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/DependInfo.cmake"
-  "TinyLLVMADT/CMakeFiles/test1.dir/DependInfo.cmake"
+  "AI-LABS/LLVMADT/ArrayRef/CMakeFiles/intrinsics_gen.dir/DependInfo.cmake"
+  "AI-LABS/LLVMADT/ArrayRef/CMakeFiles/vt_gen.dir/DependInfo.cmake"
+  "AI-LABS/LLVMADT/ArrayRef/CMakeFiles/omp_gen.dir/DependInfo.cmake"
+  "AI-LABS/LLVMADT/ArrayRef/CMakeFiles/acc_gen.dir/DependInfo.cmake"
+  "AI-LABS/LLVMADT/ArrayRef/CMakeFiles/ARMTargetParserTableGen.dir/DependInfo.cmake"
+  "AI-LABS/LLVMADT/ArrayRef/CMakeFiles/AArch64TargetParserTableGen.dir/DependInfo.cmake"
+  "AI-LABS/LLVMADT/ArrayRef/CMakeFiles/RISCVTargetParserTableGen.dir/DependInfo.cmake"
+  "AI-LABS/LLVMADT/ArrayRef/CMakeFiles/test.dir/DependInfo.cmake"
   )

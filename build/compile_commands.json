@@ -132,15 +132,9 @@
   "output": "RTTI/CMakeFiles/test_ub.dir/test_ub.cpp.o"
 },
 {
-  "directory": "/home/qiuyuang/cppExamples/build/TinyLLVMADT",
-  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinyLLVMADT/include -std=gnu++2a -o CMakeFiles/TinyLLVMADT.dir/lib/smallVector.cpp.o -c /home/qiuyuang/cppExamples/TinyLLVMADT/lib/smallVector.cpp",
-  "file": "/home/qiuyuang/cppExamples/TinyLLVMADT/lib/smallVector.cpp",
-  "output": "TinyLLVMADT/CMakeFiles/TinyLLVMADT.dir/lib/smallVector.cpp.o"
-},
-{
-  "directory": "/home/qiuyuang/cppExamples/build/TinyLLVMADT",
-  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinyLLVMADT/include -std=gnu++2a -o CMakeFiles/test1.dir/test/test1.cpp.o -c /home/qiuyuang/cppExamples/TinyLLVMADT/test/test1.cpp",
-  "file": "/home/qiuyuang/cppExamples/TinyLLVMADT/test/test1.cpp",
-  "output": "TinyLLVMADT/CMakeFiles/test1.dir/test/test1.cpp.o"
+  "directory": "/home/qiuyuang/cppExamples/build/AI-LABS/LLVMADT/ArrayRef",
+  "command": "/usr/bin/c++  -isystem /home/qiuyuang/sora-mlir/externals/llvm-project/install/include -std=c++17   -D_GNU_SOURCE -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -Wextra -Werror -Wno-unused-parameter -o CMakeFiles/test.dir/test.cpp.o -c /home/qiuyuang/cppExamples/AI-LABS/LLVMADT/ArrayRef/test.cpp",
+  "file": "/home/qiuyuang/cppExamples/AI-LABS/LLVMADT/ArrayRef/test.cpp",
+  "output": "AI-LABS/LLVMADT/ArrayRef/CMakeFiles/test.dir/test.cpp.o"
 }
 ]
