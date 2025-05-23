@@ -1,0 +1,4 @@
+/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles/stl_test.dir
+/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles/test.dir
+/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles/edit_cache.dir
+/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles/rebuild_cache.dir

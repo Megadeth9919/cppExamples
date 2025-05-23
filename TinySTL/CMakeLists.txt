@@ -10,6 +10,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(CMAKE_BUILD_TYPE Debug)
 
+set(GTEST_ROOT "/home/qiuyuang/cppExamples/googletest/")
+set(GTEST_INCLUDE_DIR "/home/qiuyuang/cppExamples/googletest/install/include")
 find_package(GTest REQUIRED)
 
 # Library target

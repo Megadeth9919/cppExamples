@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/qiuyuang/cppExamples/TinySTL/build",
+  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinySTL -isystem /home/qiuyuang/cppExamples/googletest/install/include -g -std=gnu++17 -o CMakeFiles/stl_test.dir/test/allocator_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/allocator_test.cpp",
+  "file": "/home/qiuyuang/cppExamples/TinySTL/test/allocator_test.cpp",
+  "output": "CMakeFiles/stl_test.dir/test/allocator_test.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/TinySTL/build",
+  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinySTL -isystem /home/qiuyuang/cppExamples/googletest/install/include -g -std=gnu++17 -o CMakeFiles/stl_test.dir/test/function_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/function_test.cpp",
+  "file": "/home/qiuyuang/cppExamples/TinySTL/test/function_test.cpp",
+  "output": "CMakeFiles/stl_test.dir/test/function_test.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/TinySTL/build",
+  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinySTL -isystem /home/qiuyuang/cppExamples/googletest/install/include -g -std=gnu++17 -o CMakeFiles/stl_test.dir/test/list_perform_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/list_perform_test.cpp",
+  "file": "/home/qiuyuang/cppExamples/TinySTL/test/list_perform_test.cpp",
+  "output": "CMakeFiles/stl_test.dir/test/list_perform_test.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/TinySTL/build",
+  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinySTL -isystem /home/qiuyuang/cppExamples/googletest/install/include -g -std=gnu++17 -o CMakeFiles/stl_test.dir/test/list_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/list_test.cpp",
+  "file": "/home/qiuyuang/cppExamples/TinySTL/test/list_test.cpp",
+  "output": "CMakeFiles/stl_test.dir/test/list_test.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/TinySTL/build",
+  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinySTL -isystem /home/qiuyuang/cppExamples/googletest/install/include -g -std=gnu++17 -o CMakeFiles/stl_test.dir/test/main.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/main.cpp",
+  "file": "/home/qiuyuang/cppExamples/TinySTL/test/main.cpp",
+  "output": "CMakeFiles/stl_test.dir/test/main.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/TinySTL/build",
+  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinySTL -isystem /home/qiuyuang/cppExamples/googletest/install/include -g -std=gnu++17 -o CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/unordered_map_test.cpp",
+  "file": "/home/qiuyuang/cppExamples/TinySTL/test/unordered_map_test.cpp",
+  "output": "CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/TinySTL/build",
+  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinySTL -isystem /home/qiuyuang/cppExamples/googletest/install/include -g -std=gnu++17 -o CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/vector_perf_test.cpp",
+  "file": "/home/qiuyuang/cppExamples/TinySTL/test/vector_perf_test.cpp",
+  "output": "CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/TinySTL/build",
+  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinySTL -isystem /home/qiuyuang/cppExamples/googletest/install/include -g -std=gnu++17 -o CMakeFiles/stl_test.dir/test/vector_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/vector_test.cpp",
+  "file": "/home/qiuyuang/cppExamples/TinySTL/test/vector_test.cpp",
+  "output": "CMakeFiles/stl_test.dir/test/vector_test.cpp.o"
+}
+]
