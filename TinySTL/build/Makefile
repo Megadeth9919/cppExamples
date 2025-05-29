@@ -259,6 +259,30 @@ test/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl_test.dir/build.make CMakeFiles/stl_test.dir/test/main.cpp.s
 .PHONY : test/main.cpp.s
 
+test/unique_ptr_test.o: test/unique_ptr_test.cpp.o
+.PHONY : test/unique_ptr_test.o
+
+# target to build an object file
+test/unique_ptr_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl_test.dir/build.make CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o
+.PHONY : test/unique_ptr_test.cpp.o
+
+test/unique_ptr_test.i: test/unique_ptr_test.cpp.i
+.PHONY : test/unique_ptr_test.i
+
+# target to preprocess a source file
+test/unique_ptr_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl_test.dir/build.make CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.i
+.PHONY : test/unique_ptr_test.cpp.i
+
+test/unique_ptr_test.s: test/unique_ptr_test.cpp.s
+.PHONY : test/unique_ptr_test.s
+
+# target to generate assembly for a file
+test/unique_ptr_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl_test.dir/build.make CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.s
+.PHONY : test/unique_ptr_test.cpp.s
+
 test/unordered_map_test.o: test/unordered_map_test.cpp.o
 .PHONY : test/unordered_map_test.o
 
@@ -356,6 +380,9 @@ help:
 	@echo "... test/main.o"
 	@echo "... test/main.i"
 	@echo "... test/main.s"
+	@echo "... test/unique_ptr_test.o"
+	@echo "... test/unique_ptr_test.i"
+	@echo "... test/unique_ptr_test.s"
 	@echo "... test/unordered_map_test.o"
 	@echo "... test/unordered_map_test.i"
 	@echo "... test/unordered_map_test.s"

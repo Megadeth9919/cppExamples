@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/qiuyuang/cppExamples/TinySTL/test/list_perform_test.cpp" "CMakeFiles/stl_test.dir/test/list_perform_test.cpp.o" "gcc" "CMakeFiles/stl_test.dir/test/list_perform_test.cpp.o.d"
   "/home/qiuyuang/cppExamples/TinySTL/test/list_test.cpp" "CMakeFiles/stl_test.dir/test/list_test.cpp.o" "gcc" "CMakeFiles/stl_test.dir/test/list_test.cpp.o.d"
   "/home/qiuyuang/cppExamples/TinySTL/test/main.cpp" "CMakeFiles/stl_test.dir/test/main.cpp.o" "gcc" "CMakeFiles/stl_test.dir/test/main.cpp.o.d"
+  "/home/qiuyuang/cppExamples/TinySTL/test/unique_ptr_test.cpp" "CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o" "gcc" "CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o.d"
   "/home/qiuyuang/cppExamples/TinySTL/test/unordered_map_test.cpp" "CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o" "gcc" "CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o.d"
   "/home/qiuyuang/cppExamples/TinySTL/test/vector_perf_test.cpp" "CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o" "gcc" "CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o.d"
   "/home/qiuyuang/cppExamples/TinySTL/test/vector_test.cpp" "CMakeFiles/stl_test.dir/test/vector_test.cpp.o" "gcc" "CMakeFiles/stl_test.dir/test/vector_test.cpp.o.d"

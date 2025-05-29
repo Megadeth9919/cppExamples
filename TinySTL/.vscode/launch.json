@@ -9,7 +9,7 @@
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/build/stl_test",
-      "args": ["--gtest_filter=ListTest.*"],
+      "args": ["--gtest_filter=UnorderedMapTest.*"],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
       "environment": [],

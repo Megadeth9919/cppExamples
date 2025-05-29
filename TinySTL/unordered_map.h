@@ -1,4 +1,5 @@
 #pragma once
+#include <cassert>
 #include <functional>
 #include <type_traits>
 #include <utility>
@@ -23,6 +24,7 @@ struct hashtable_value_traits {
 };
 
 template <typename T>
+// NOTE: SFINAE机制 + 模板偏特化，如果T::first_type和T::second_type存在，则匹配这个模板
 struct hashtable_value_traits<T, std::void_t<typename T::first_type, typename T::second_type>> {
   using key_type = typename T::first_type;
   using value_type = T;
@@ -133,6 +135,19 @@ public:
   bool empty() const { return size_ == 0; }
   size_type size() const { return size_; }
 
+  void clear() {
+    for (node_ptr& node : buckets_) {
+      node_ptr cur = node;
+      while (cur) {
+        node_ptr next = cur->next;
+        destroy_node(cur);
+        cur = next;
+      }
+      node = nullptr;
+    }
+    size_ = 0;
+  }
+
   template<typename... Args>
   std::pair<iterator, bool> 
   emplace_unique(Args&&... args) {
@@ -151,14 +166,53 @@ public:
     return end();
   }
 
-  void erase(iterator pos) {
+  void erase(iterator pos) { // NOTE: 因为是单向链表，所以需要遍历，找到前一个节点断链
     if (pos == end())
       return;
     node_ptr node = pos.node_;
     size_type index = hash(value_traits::get_key(node->val));
     node_ptr cur = buckets_[index];
-    for (; cur; cur = cur->next) {
+    if (cur == node) {
+      buckets_[index] = node->next;
+      destroy_node(node);
+      --size_;
+      return;
     }
+    for (; cur; cur = cur->next) {
+      if (cur->next == node) {
+        cur->next = node->next;
+        destroy_node(node);
+        --size_;
+        return;
+      }
+    }
+    assert(0), "unreachable";
+  }
+
+  size_type erase(const key_type& key) {
+    size_type index = hash(key);
+    node_ptr cur = buckets_[index];
+    size_type erased = 0;
+    while (cur) {
+      node_ptr next = cur->next;
+      destroy_node(cur);
+      size_--;
+      erased++;
+      cur = next;
+    }
+    buckets_[index] = nullptr; // NOTE: 头节点置空表示该桶为空
+    return erased;
+  }
+
+  size_type count(const key_type& key) const {
+    size_type index = hash(key);
+    node_ptr cur = buckets_[index];
+    size_type res = 0;
+    while (cur) {
+      res++;
+      cur = cur->next;
+    }
+    return res;
   }
 
 private:
@@ -167,14 +221,20 @@ private:
   }
 
   template<typename... Args>
-  node_ptr create_node(Args&&... args) {
+  node_ptr create_node(Args&&... args) { // 由参数构造节点，next指针为nullptr
     node_ptr node = node_alloc_.allocate(1);
     data_alloc_.construct(std::addressof(node->val), std::forward<Args>(args)...);
+    node->next = nullptr; // NOTE: 必须步骤，否则会出现未定义行为
     return node;
   }
 
+  void destroy_node(node_ptr node) {
+    data_alloc_.destroy(std::addressof(node->val));
+    node_alloc_.deallocate(node, 1);
+  }
+
   std::pair<iterator, bool>
-  insert_node_unique(node_ptr node) {
+  insert_node_unique(node_ptr node) { // 将结点插入到桶中，如果桶中已经有相同的结点，则不插入，返回false
     size_type index = hash(value_traits::get_key(node->val));
     node_ptr cur = buckets_[index];
     if (cur == nullptr) {
@@ -251,8 +311,19 @@ public:
     return it->second;
   }
 
+  iterator find(const key_type& key) {
+    return ht_.find(key);
+  }
+
   bool empty() const { return ht_.empty(); }
   size_type size() const { return ht_.size(); }
+
+  iterator begin() { return ht_.begin(); }
+  iterator end() { return ht_.end(); }
+  // const_iterator begin() const { return ht_.begin(); }
+  // const_iterator end() const { return ht_.end(); }
+
+  void clear() { ht_.clear(); }
   
   template<typename... Args>
   std::pair<iterator, bool>
@@ -272,6 +343,14 @@ public:
 
   void erase(iterator pos) {
     ht_.erase(pos);
+  }
+
+  size_type erase(const key_type& key) {
+    return ht_.erase(key);
+  }
+
+  size_type count(const key_type& key) const {
+    return ht_.count(key);
   }
 };
 } // namespace tiny_stl

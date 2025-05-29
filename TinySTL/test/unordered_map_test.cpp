@@ -70,62 +70,62 @@ TEST_F(UnorderedMapTest, OperatorBracket) {
     EXPECT_EQ(m["new_key"].name, "modified");
 }
 
-// TEST_F(UnorderedMapTest, EraseAndClear) {
-//     unordered_map<ComplexKey, int, ComplexKeyHash> m;
-//     m.emplace(ComplexKey("a", 1), 10);
-//     m.emplace(ComplexKey("b", 2), 20);
+TEST_F(UnorderedMapTest, EraseAndClear) {
+    unordered_map<ComplexKey, int, ComplexKeyHash> m;
+    m.emplace(ComplexKey("a", 1), 10);
+    m.emplace(ComplexKey("b", 2), 20);
+    std::unordered_map<int, int > mm;
+    // Erase by key
+    EXPECT_EQ(m.erase(ComplexKey("a", 1)), 1);
+    EXPECT_EQ(m.size(), 1);
     
-//     // Erase by key
-//     EXPECT_EQ(m.erase(ComplexKey("a", 1)), 1);
-//     EXPECT_EQ(m.size(), 1);
+    // Erase by iterator
+    auto it = m.find(ComplexKey("b", 2));
+    m.erase(it);
+    EXPECT_TRUE(m.empty());
     
-//     // Erase by iterator
-//     auto it = m.find(ComplexKey("b", 2));
-//     m.erase(it);
-//     EXPECT_TRUE(m.empty());
-    
-//     // Clear
-//     m.emplace(ComplexKey("c", 3), 30);
-//     m.clear();
-//     EXPECT_TRUE(m.empty());
-// }
+    // Clear
+    m.emplace(ComplexKey("c", 3), 30);
+    m.clear();
+    EXPECT_TRUE(m.empty());
+}
 
-// TEST_F(UnorderedMapTest, FindAndCount) {
-//     unordered_map<ComplexKey, std::string, ComplexKeyHash> m;
-//     m.emplace(ComplexKey("find", 1), "found");
+TEST_F(UnorderedMapTest, FindAndCount) {
+    unordered_map<ComplexKey, std::string, ComplexKeyHash> m;
+    m.emplace(ComplexKey("find", 1), "found");
     
-//     // Find existing key
-//     auto it = m.find(ComplexKey("find", 1));
-//     EXPECT_NE(it, m.end());
-//     EXPECT_EQ(it->second, "found");
+    // Find existing key
+    auto it = m.find(ComplexKey("find", 1));
+    EXPECT_NE(it, m.end());
+    EXPECT_EQ(it->second, "found");
     
-//     // Find non-existent key
-//     it = m.find(ComplexKey("not_found", 0));
-//     EXPECT_EQ(it, m.end());
+    // Find non-existent key
+    it = m.find(ComplexKey("not_found", 0));
+    EXPECT_EQ(it, m.end());
     
-//     // Count
-//     EXPECT_EQ(m.count(ComplexKey("find", 1)), 1);
-//     EXPECT_EQ(m.count(ComplexKey("not_found", 0)), 0);
-// }
+    // Count
+    EXPECT_EQ(m.count(ComplexKey("find", 1)), 1);
+    EXPECT_EQ(m.count(ComplexKey("not_found", 0)), 0);
+}
 
-// TEST_F(UnorderedMapTest, RehashAndBucketInterface) {
-//     unordered_map<int, ComplexValue> m;
+TEST_F(UnorderedMapTest, RehashAndBucketInterface) {
+    // unordered_map<int, ComplexValue> m;
     
-//     // Insert enough elements to trigger rehash
-//     for(int i = 0; i < 100; ++i) {
-//         m.emplace(i, ComplexValue(std::to_string(i)));
-//     }
+    // // Insert enough elements to trigger rehash
+    // for(int i = 0; i < 100; ++i) {
+    //     m.emplace(i, ComplexValue(std::to_string(i)));
+    // }
     
-//     // Check bucket interface
-//     EXPECT_GT(m.bucket_count(), 0);
-//     for(size_t i = 0; i < m.bucket_count(); ++i) {
-//         EXPECT_LE(m.bucket_size(i), m.max_bucket_size());
-//     }
+    // // Check bucket interface
+    // EXPECT_GT(m.bucket_count(), 0);
+    // for(size_t i = 0; i < m.bucket_count(); ++i) {
+    //     EXPECT_LE(m.bucket_size(i), m.max_bucket_size());
+    // }
     
-//     // Force rehash
-//     m.rehash(200);
-//     EXPECT_GE(m.bucket_count(), 200);
-// }
+    // // Force rehash
+    // m.rehash(200);
+    // EXPECT_GE(m.bucket_count(), 200);
+}
 
 } // namespace test
 } // namespace tiny_stl

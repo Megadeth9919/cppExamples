@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/stl_test.dir/test/list_test.cpp.o.d"
   "CMakeFiles/stl_test.dir/test/main.cpp.o"
   "CMakeFiles/stl_test.dir/test/main.cpp.o.d"
+  "CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o"
+  "CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o.d"
   "CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o"
   "CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o.d"
   "CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o"

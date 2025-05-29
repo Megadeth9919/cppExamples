@@ -139,10 +139,24 @@ CMakeFiles/stl_test.dir/test/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stl_test.dir/test/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiuyuang/cppExamples/TinySTL/test/main.cpp -o CMakeFiles/stl_test.dir/test/main.cpp.s
 
+CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o: CMakeFiles/stl_test.dir/flags.make
+CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o: /home/qiuyuang/cppExamples/TinySTL/test/unique_ptr_test.cpp
+CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o: CMakeFiles/stl_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o -MF CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o.d -o CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/unique_ptr_test.cpp
+
+CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiuyuang/cppExamples/TinySTL/test/unique_ptr_test.cpp > CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.i
+
+CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiuyuang/cppExamples/TinySTL/test/unique_ptr_test.cpp -o CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.s
+
 CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o: CMakeFiles/stl_test.dir/flags.make
 CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o: /home/qiuyuang/cppExamples/TinySTL/test/unordered_map_test.cpp
 CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o: CMakeFiles/stl_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o -MF CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o.d -o CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/unordered_map_test.cpp
 
 CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.s: cmake_force
 CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o: CMakeFiles/stl_test.dir/flags.make
 CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o: /home/qiuyuang/cppExamples/TinySTL/test/vector_perf_test.cpp
 CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o: CMakeFiles/stl_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o -MF CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o.d -o CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/vector_perf_test.cpp
 
 CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.s: cmake_force
 CMakeFiles/stl_test.dir/test/vector_test.cpp.o: CMakeFiles/stl_test.dir/flags.make
 CMakeFiles/stl_test.dir/test/vector_test.cpp.o: /home/qiuyuang/cppExamples/TinySTL/test/vector_test.cpp
 CMakeFiles/stl_test.dir/test/vector_test.cpp.o: CMakeFiles/stl_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/stl_test.dir/test/vector_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/stl_test.dir/test/vector_test.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stl_test.dir/test/vector_test.cpp.o -MF CMakeFiles/stl_test.dir/test/vector_test.cpp.o.d -o CMakeFiles/stl_test.dir/test/vector_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/vector_test.cpp
 
 CMakeFiles/stl_test.dir/test/vector_test.cpp.i: cmake_force
@@ -188,6 +202,7 @@ stl_test_OBJECTS = \
 "CMakeFiles/stl_test.dir/test/list_perform_test.cpp.o" \
 "CMakeFiles/stl_test.dir/test/list_test.cpp.o" \
 "CMakeFiles/stl_test.dir/test/main.cpp.o" \
+"CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o" \
 "CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o" \
 "CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o" \
 "CMakeFiles/stl_test.dir/test/vector_test.cpp.o"
@@ -200,13 +215,14 @@ stl_test: CMakeFiles/stl_test.dir/test/function_test.cpp.o
 stl_test: CMakeFiles/stl_test.dir/test/list_perform_test.cpp.o
 stl_test: CMakeFiles/stl_test.dir/test/list_test.cpp.o
 stl_test: CMakeFiles/stl_test.dir/test/main.cpp.o
+stl_test: CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o
 stl_test: CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o
 stl_test: CMakeFiles/stl_test.dir/test/vector_perf_test.cpp.o
 stl_test: CMakeFiles/stl_test.dir/test/vector_test.cpp.o
 stl_test: CMakeFiles/stl_test.dir/build.make
 stl_test: /home/qiuyuang/cppExamples/googletest/build/lib/libgtest.a
 stl_test: CMakeFiles/stl_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable stl_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/qiuyuang/cppExamples/TinySTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable stl_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stl_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

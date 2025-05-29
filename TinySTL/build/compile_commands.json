@@ -31,6 +31,12 @@
 },
 {
   "directory": "/home/qiuyuang/cppExamples/TinySTL/build",
+  "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinySTL -isystem /home/qiuyuang/cppExamples/googletest/install/include -g -std=gnu++17 -o CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/unique_ptr_test.cpp",
+  "file": "/home/qiuyuang/cppExamples/TinySTL/test/unique_ptr_test.cpp",
+  "output": "CMakeFiles/stl_test.dir/test/unique_ptr_test.cpp.o"
+},
+{
+  "directory": "/home/qiuyuang/cppExamples/TinySTL/build",
   "command": "/usr/bin/c++  -I/home/qiuyuang/cppExamples/TinySTL -isystem /home/qiuyuang/cppExamples/googletest/install/include -g -std=gnu++17 -o CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o -c /home/qiuyuang/cppExamples/TinySTL/test/unordered_map_test.cpp",
   "file": "/home/qiuyuang/cppExamples/TinySTL/test/unordered_map_test.cpp",
   "output": "CMakeFiles/stl_test.dir/test/unordered_map_test.cpp.o"
